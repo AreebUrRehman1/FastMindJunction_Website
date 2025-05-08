@@ -13,11 +13,12 @@
   margin-top: 3.125rem; /* 50px */
   display: flex;
   flex-direction: row;
-  column-gap: 3.125rem; /* 50px */
   justify-content: center;
+  text-align: left;
+  column-gap: 3.125rem; /* 50px */
 }
 
-.first_section_2023, .first_section_2022, .first_section_2021, .first_section_2020, .first_section_2019 {
+.first_section_F24, .first_section_O23, .first_section_J23, .first_section_F23, .first_section_O22, .first_section_J22, .first_section_F22 {
   padding: 1.25rem 1.5625rem; /* 20px 25px */
   border-radius: 6.25rem; /* 100px */
   border: none;
@@ -26,13 +27,16 @@
   background: linear-gradient(90deg, #4ade80, #2dd4bf);
   color: white;
   z-index: 1;
+  cursor: pointer;
+  margin-top: 2.5rem; /* 40px */
+  width: 15rem; /* 240px */
 }
 
-.first_section_2021, .first_section_2020, .first_section_2019 {
+.first_section_F24, .first_section_O23, .first_section_J23, .first_section_F23, .first_section_O22, .first_section_J22, .first_section_F22 {
   margin-top: 2.5rem; /* 40px */
 }
 
-.first_section_2023:hover, .first_section_2022:hover, .first_section_2021:hover, .first_section_2020:hover, .first_section_2019:hover {
+.first_section_F24:hover, .first_section_O23:hover, .first_section_J23:hover, .first_section_F23:hover, .first_section_O22:hover, .first_section_J22:hover, .first_section_F22:hover {
   cursor: pointer;
   background: linear-gradient(90deg, #4ade80, #2dd4bf);
   box-shadow: 0 0 0.9375rem rgba(74, 222, 128, 0.6); /* 15px */
