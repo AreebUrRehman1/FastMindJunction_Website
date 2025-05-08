@@ -1,0 +1,41 @@
+/* Header CSS */
+.course {
+  font-weight: bold;
+}
+
+/* First Section CSS */
+.first_section {
+  margin-top: 10.125rem; /* 162px */
+}
+
+.first_section_button {
+  text-align: center;
+  margin-top: 3.125rem; /* 50px */
+  display: flex;
+  flex-direction: row;
+  column-gap: 3.125rem; /* 50px */
+  justify-content: center;
+}
+
+.first_section_wph11, .first_section_wph12, .first_section_wph13, .first_section_wph14, .first_section_wph15, .first_section_wph16 {
+  padding: 1.5625rem 1.875rem; /* 25px 30px */
+  border-radius: 6.25rem; /* 100px */
+  border: none;
+  font-size: 1.5625rem; /* 25px */
+  font-weight: bold;
+  background: linear-gradient(90deg, #4ade80, #2dd4bf);
+  color: white;
+  z-index: 1;
+}
+
+.first_section_wph14, .first_section_wph13, .first_section_wph15, .first_section_wph16 {
+  margin-top: 2.5rem; /* 40px */
+}
+
+.first_section_wph11:hover, .first_section_wph12:hover, .first_section_wph13:hover, .first_section_wph14:hover, .first_section_wph15:hover, .first_section_wph16:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg, #4ade80, #2dd4bf);
+  box-shadow: 0 0 0.9375rem rgba(74, 222, 128, 0.6); /* 15px */
+  transform: scale(1.05);
+  color: white;
+}

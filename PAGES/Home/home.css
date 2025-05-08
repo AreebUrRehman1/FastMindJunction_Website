@@ -1,0 +1,137 @@
+/* Header CSS */
+.home {
+  font-weight: bold;
+}
+
+/* First Section CSS */
+
+@keyframes fadeIn { /* Animation */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.first_section_bg {
+  background: linear-gradient(150deg, #0f172a, #64748b);
+  color: rgb(255, 255, 255);
+  margin-top: 7rem; /* 112px */
+  height: 16.3125rem; /* 261px */
+}
+
+.first_section {
+  margin-left: 0.625rem; /* 10px */
+  margin-right: 0.625rem; /* 10px */
+  padding-top: 2.5rem; /* 40px */
+  animation: fadeIn 2s ease-in-out;
+  opacity: 0; /* Ensure it's invisible until animation starts */
+  animation-fill-mode: forwards; /* Keeps the element visible after the animation */
+}
+
+.first_section_title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem; /* 40px */
+}
+
+.first_section_body {
+  text-align: center;
+  font-size: 1.5625rem; /* 25px */
+  margin-top: 1.25rem; /* 20px */
+}
+
+.first_section_button {
+  text-align: center;
+  margin-top: 1.25rem; /* 20px */
+}
+
+.join_now {
+  padding: 0.9375rem 1.25rem; /* 15px 20px */
+  border-radius: 6.25rem; /* 100px */
+  border: none;
+  font-size: 1.25rem; /* 20px */
+  font-weight: bold;
+  background: linear-gradient(90deg, #4ade80, #2dd4bf);
+  color: white;
+  z-index: 1;
+}
+
+.join_now:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg, #4ade80, #2dd4bf);
+  box-shadow: 0 0 0.9375rem rgba(74, 222, 128, 0.6); /* 15px */
+  transform: scale(1.05);
+  color: white;
+}
+
+/* Second Section CSS */
+
+.second_section_point {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 1.875rem; /* 30px */
+  align-items: center;
+}
+
+.second_section_point_para {
+  margin-left: 1.25rem; /* 20px */
+  width: 62.5rem; /* 1000px */
+}
+
+.second_section_point_title {
+  font-size: 1.875rem; /* 30px */
+  font-weight: bold;
+}
+
+.second_section_point_body {
+  font-size: 1.375rem; /* 22px */
+}
+
+.second_section_point_img {
+  width: 12.5rem; /* 200px */
+  height: 12.5rem; /* 200px */
+  border-radius: 50%;
+  background-color: #94a3b8;
+  margin-right: 9.375rem; /* 150px */
+}
+
+/* Third Section CSS */
+
+.third_section {
+  margin-top: 6.25rem; /* 100px */
+}
+
+.third_section_point {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 1.875rem; /* 30px */
+  align-items: center;
+}
+
+.third_section_point_para {
+  margin-left: 1.25rem; /* 20px */
+  width: 62.5rem; /* 1000px */
+}
+
+.third_section_point_title {
+  font-size: 1.875rem; /* 30px */
+  font-weight: bold;
+}
+
+.third_section_point_body {
+  font-size: 1.375rem; /* 22px */
+}
+
+.third_section_point_img {
+  width: 12.5rem; /* 200px */
+  height: 12.5rem; /* 200px */
+  border-radius: 50%;
+  background-color: #94a3b8;
+  margin-right: 9.375rem; /* 150px */
+}

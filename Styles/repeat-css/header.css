@@ -1,0 +1,90 @@
+.header {
+  background-color: white;
+  color: black;
+  padding-bottom: 0.625rem;       /* 10px */
+  position: fixed;
+  width: 97.5rem;                 /* 1560px */
+  z-index: 10;
+  top: 0;
+}
+
+.header_logo,
+.header_logo_design {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_logo_design {
+  cursor: pointer;
+}
+
+.header_logo {
+  justify-content: space-between;
+}
+
+.header_logo_img {
+  width: 3.75rem;                /* 60px */
+  height: 3.75rem;
+}
+
+.header_logo_name {
+  font-weight: bold;
+  margin-left: 0.9375rem;        /* 15px */
+  font-size: 1.5625rem;          /* 25px */
+  margin-top: 1rem;              /* 16px */
+}
+
+.header_left_side {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation_bar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.25rem;           /* 20px */
+}
+
+.home_con,
+.about_con,
+.course_con,
+.premium_con,
+.contact_us_con {
+  margin-left: 1.25rem;          /* 20px */
+  flex-shrink: 0;
+}
+
+.home_con,
+.about_con,
+.course_con,
+.premium_con {
+  margin-right: 0.9375rem;       /* 15px */
+}
+
+.home,
+.about,
+.course,
+.premium,
+.contact_us {
+  cursor: pointer;
+  border-radius: 3.125rem;       /* 50px */
+  padding-right: 0.375rem;       /* 6px */
+  padding-left: 0.375rem;
+}
+
+.home:hover,
+.about:hover,
+.course:hover,
+.premium:hover,
+.contact_us:hover {
+  background-color: lightgrey;
+}
+
+.navigation_bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation_bar a:hover {
+  text-decoration: none;
+}

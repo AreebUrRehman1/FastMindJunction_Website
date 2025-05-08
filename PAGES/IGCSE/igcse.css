@@ -1,0 +1,28 @@
+/* Header */
+.course {
+  font-weight: bold;
+}
+
+/* First Section */
+.first_section {
+  margin-top: 10.5625rem; /* 169px */
+}
+
+.first_section_para {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.first_section_title {
+  font-size: 5.625rem; /* 90px */
+  font-weight: 900;
+}
+
+.first_section_text {
+  font-size: 1.25rem; /* 20px */
+  width: 56.25rem; /* 900px */
+  margin-top: 1.25rem; /* 20px */
+}

@@ -1,0 +1,141 @@
+.footer {
+  height: 25rem;              /* 400px */
+  margin-top: 6.25rem;        /* 100px */
+  background-color: #515b69;
+  width: 97.5rem;             /* 1560px */
+}
+
+.footer_content {
+  padding: 3rem 0.75rem;      /* 48px 12px */
+  height: 19rem;              /* 304px */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer_top_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 4.375rem;       /* 70px */
+}
+
+.footer_logo,
+.footer_logo_design {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_logo_design {
+  cursor: pointer;
+}
+
+.footer_logo {
+  justify-content: space-between;
+}
+
+.footer_logo_img {
+  width: 3.75rem;             /* 60px */
+  height: 3.75rem;
+}
+
+.footer_logo_name {
+  font-weight: bold;
+  color: white;
+  margin-left: 0.9375rem;     /* 15px */
+  font-size: 1.25rem;         /* 20px */
+  margin-top: 1rem;           /* 16px */
+}
+
+.footer_top_first_section,
+.footer_top_second_section,
+.footer_top_third_section,
+.footer_top_forth_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_company,
+.footer_courses,
+.footer_subjects,
+.footer_social_media {
+  color: white;
+  font-size: 1.625rem;        /* 26px */
+  font-weight: bold;
+}
+
+.footer_about_us,
+.footer_edexcel_ial,
+.footer_igcse,
+.footer_physics,
+.footer_maths,
+.footer_it {
+  color: rgb(197, 197, 197);
+  font-size: 1rem;            /* 16px */
+  margin-top: 1.25rem;        /* 20px */
+}
+
+.footer_about_us_bg,
+.footer_edexcel_ial_bg,
+.footer_igcse_bg,
+.footer_physics_bg,
+.footer_maths_bg,
+.footer_it_bg {
+  display: inline;
+}
+
+.footer_about_us_bg:hover,
+.footer_edexcel_ial_bg:hover,
+.footer_igcse_bg:hover,
+.footer_physics_bg:hover,
+.footer_maths_bg:hover,
+.footer_it_bg:hover {
+  color: white;
+  cursor: pointer;
+  font-size: 1.125rem;        /* 18px */
+}
+
+.footer_instagram,
+.footer_youtube {
+  fill: rgb(197, 197, 197);
+  zoom: 130%;
+  margin-top: 0.9375rem;      /* 15px */
+  margin-right: 0.9375rem;
+  cursor: pointer;
+}
+
+.footer_youtube {
+  zoom: 150%;
+  margin-top: 0.75rem;        /* 12px */
+}
+
+.footer_instagram:hover,
+.footer_youtube:hover {
+  fill: white;
+  cursor: pointer;
+}
+
+.footer_social_media_arrangement {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_bottom_section_text {
+  text-align: center;
+  color: white;
+}
+
+.footer_top_first_section a,
+.footer_top_second_section a,
+.footer_top_third_section a,
+.footer_top_forth_section a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer_top_first_section a:hover,
+.footer_top_second_section a:hover,
+.footer_top_third_section a:hover,
+.footer_top_forth_section a:hover {
+  text-decoration: none;
+}
