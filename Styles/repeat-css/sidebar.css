@@ -53,9 +53,3 @@
   object-position: center;
   fill: grey;
 }
-
-.sidebar_question_bg:hover,
-.sidebar_question_bg2:hover {
-  background-color: #61616120;
-  cursor: pointer;
-}

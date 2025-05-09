@@ -31,8 +31,6 @@ function renderAnswerWithMath(questionID) {
 
 
 
-
-
 /* Reset Button Functionality */
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("resetButton").addEventListener("click", () => {
@@ -375,12 +373,6 @@ return mainContentAnswerAndVideoHTML;
 };
 
 
-/*Browser Feature */
-
-
-window.addEventListener("popstate", function (event) {
-  window.location.href = document.referrer || "http://127.0.0.1:5500/PAGES/Edexcel_IAL/Physics/WPH11/2023/October/Mode/Modes.html"; // Redirect to the previous webpage
-});
 
 
 /*The Display Stuff */

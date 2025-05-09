@@ -33,6 +33,8 @@
 
 <div class="sidebar_section">
 
+  <button id="backButton" class="back_button">← Back</button>
+
   <div class="sidebar_section_questions">
   <div class="sidebar_title">QUESTIONS</div>
 
@@ -71,6 +73,23 @@
     tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] },
     svg: { fontCache: 'global' }
   };
+
+  document.getElementById("backButton").addEventListener("click", () => {
+  const confirmed = confirm("Are you sure you want to go back? This will reset all your progress.");
+  if (confirmed) {
+    localStorage.clear();
+    window.location.href = "../../Year/year.html";
+  }
+  });
+
+  window.addEventListener("popstate", function () {
+    localStorage.clear();
+    window.location.href = "../../Year/year.html";
+  });
+
+  // Push a dummy state to intercept back navigation
+  history.pushState(null, "", window.location.href);
+
 </script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
