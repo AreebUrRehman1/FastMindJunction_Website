@@ -1,3 +1,7 @@
+body{
+  height: 2300px;
+}
+
 /* Header CSS */
 .header {
   background-color: white;
@@ -62,47 +66,6 @@
   color: white;
 }
 
-/* JAVASCRIPT CSS */
-@keyframes shake {
-  0%   { transform: translateX(0); }
-  25%  { transform: translateX(-0.3125rem); }   /* -5px */
-  50%  { transform: translateX(0.3125rem); }    /* 5px */
-  75%  { transform: translateX(-0.3125rem); }
-  100% { transform: translateX(0); }
-}
-
-@keyframes correctGlow {
-  0%   { box-shadow: 0 0 0 rgba(0, 255, 0, 0); }
-  50%  { box-shadow: 0 0 0.75rem rgba(0, 255, 0, 0.6); } /* 12px */
-  100% { box-shadow: 0 0 0 rgba(0, 255, 0, 0); }
-}
-
-.highlight {
-  background-color: #61616120;
-}
-
-.green {
-  animation: correctGlow 0.6s ease-in-out;
-  border-color: green !important;
-  color: green !important;
-  font-weight: bold;
-}
-
-.red {
-  animation: shake 0.3s ease-in-out;
-  border-color: red !important;
-  color: red !important;
-  font-weight: bold;
-}
-
-.fill_green {
-  fill: green !important;
-}
-
-.fill_red {
-  fill: red !important;
-}
-
 .bottom_next_container {
   position: fixed;
   bottom: 0;
@@ -159,24 +122,44 @@
 }
 
 
-/*Back Button*/
 
-.back_button {
-  background-color: inherit;
-  color: lightgrey;
-  border: solid 1px lightgrey;
-  border-radius: 3.125rem; /* 50px */
-  margin-top: 10px;
-  margin-left: 15px;
-  padding: 5px 2px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  width: 75px;
+/* JAVASCRIPT CSS */
+@keyframes shake {
+  0%   { transform: translateX(0); }
+  25%  { transform: translateX(-0.3125rem); }   /* -5px */
+  50%  { transform: translateX(0.3125rem); }    /* 5px */
+  75%  { transform: translateX(-0.3125rem); }
+  100% { transform: translateX(0); }
 }
 
-.back_button:hover{
-  background-color: lightgrey;
-  color: black;
-  cursor: pointer;
+@keyframes correctGlow {
+  0%   { box-shadow: 0 0 0 rgba(0, 255, 0, 0); }
+  50%  { box-shadow: 0 0 0.75rem rgba(0, 255, 0, 0.6); } /* 12px */
+  100% { box-shadow: 0 0 0 rgba(0, 255, 0, 0); }
+}
+
+.highlight {
+  background-color: #61616120;
+}
+
+.green {
+  animation: correctGlow 0.6s ease-in-out;
+  border-color: green !important;
+  color: green !important;
+  font-weight: bold;
+}
+
+.red {
+  animation: shake 0.3s ease-in-out;
+  border-color: red !important;
+  color: red !important;
+  font-weight: bold;
+}
+
+.fill_green {
+  fill: green !important;
+}
+
+.fill_red {
+  fill: red !important;
 }

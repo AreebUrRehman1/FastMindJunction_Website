@@ -1,10 +1,16 @@
 .main_section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 3.8125rem; /* 61px */
-  margin-left: 10.625rem; /* 170px */
-  margin-right: 0.625rem; /* 10px */
 }
+
+.main_content_right_side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1560px;
+}
+
 
 /* Main Content Heading */
 .main_content_heading {
@@ -25,11 +31,11 @@
   margin-bottom: 3.125rem; /* 50px */
 }
 
+
 /* Main Content Question */
 .main_content_question {
   background-color: white;
   max-width: 62.5rem; /* 1000px */
-  margin: auto;
   padding: 2rem;
   border-radius: 1rem; /* 16px */
   box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1); /* 8px 20px */
@@ -91,6 +97,8 @@
   zoom: 90%;
 }
 
+
+
 /* Main Content Answer And Video */
 .main_content_answer_and_video {
   display: flex;
@@ -102,7 +110,6 @@
   margin-bottom: 9.375rem; /* 150px */
 }
 
-/* Main card */
 .main_content_answer {
   background-color: white;
   max-width: 43.75rem; /* 700px */
@@ -112,7 +119,6 @@
   height: auto;
 }
 
-/* Explanation & Tip */
 .explanation h3 {
   font-size: 1rem;
   font-weight: 600;
@@ -125,7 +131,6 @@
   color: #334155;
 }
 
-/* Other options explanation */
 .other-options {
   margin-top: 2rem;
   color: #475569;
@@ -136,7 +141,44 @@
   margin-bottom: 0.75rem;
 }
 
-/* Tip box */
+.calculation {
+  background-color: #f8f9fa;
+  padding: 0.9375rem; /* 15px */
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem; /* 8px */
+}
+
+.calculation h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.625rem; /* 10px */
+}
+
+.calculation p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.calculation code {
+  background-color: #f1f1f1;
+  padding: 0.125rem 0.5rem; /* 2px 8px */
+  border-radius: 0.3125rem; /* 5px */
+  font-size: 1.1rem;
+  color: #d6336c;
+}
+
+.calculation .calculation-formula {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.calculation .calculation-result {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #28a745;
+}
+
 .tip-box {
   margin-top: 2rem;
   background-color: #fef9c3;
@@ -146,6 +188,7 @@
   color: #92400e;
   font-size: 0.95rem;
 }
+
 
 /* Main Content More */
 .main_content_more {
@@ -210,44 +253,7 @@
   background-color: #1c74d9;
 }
 
-/* Calculation */
-.calculation {
-  background-color: #f8f9fa;
-  padding: 0.9375rem; /* 15px */
-  border: 1px solid #e0e0e0;
-  border-radius: 0.5rem; /* 8px */
-}
 
-.calculation h4 {
-  font-size: 1.2rem;
-  color: #333;
-  margin-bottom: 0.625rem; /* 10px */
-}
-
-.calculation p {
-  font-size: 1rem;
-  color: #555;
-}
-
-.calculation code {
-  background-color: #f1f1f1;
-  padding: 0.125rem 0.5rem; /* 2px 8px */
-  border-radius: 0.3125rem; /* 5px */
-  font-size: 1.1rem;
-  color: #d6336c;
-}
-
-.calculation .calculation-formula {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #333;
-}
-
-.calculation .calculation-result {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #28a745;
-}
 
 /* Color List */
 .color-green {
