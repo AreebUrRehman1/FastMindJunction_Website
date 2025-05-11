@@ -1,6 +1,7 @@
 export const mcqqData = {
   //YEARLY PAST PAPER
 
+    //WPH11
   WPH11F22 : [
   {
     Question : `🚶‍♂️ A student walks for 6 seconds. The displacement-time graph for the student is shown.`,
@@ -1213,6 +1214,1223 @@ export const mcqqData = {
     QuestionID : '10'
   },
 ],
+
+
+  //WPH12
+  WPH12F24 : [
+  {
+    Question : `A ray of light in air is incident on a glass surface. The angle of incidence is less than the critical angle.`,
+    Question2 : `Which of the following describes what happens to the ray of light?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Partially reflected and partially transmitted`,
+      optionData2 : `. Refracted away from the normal`,
+      optionData3 : `. Totally internally reflected`,
+      optionData4 : `. Transmitted along the normal`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '1'
+  },{
+    Question : `There is an increase in the intensity of light incident on a light dependent resistor (LDR). This causes a change in the number of conduction electrons and a change in the resistance of the LDR.`,
+    Question2 : `Which option describes these changes?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. <strong>Number of conduction electrons:</strong> decreases;&nbsp; <strong>Resistance of LDR:</strong> decreases`,
+      optionData2 : `. <strong>Number of conduction electrons:</strong> decreases;&nbsp; <strong>Resistance of LDR:</strong> increases`,
+      optionData3 : `. <strong>Number of conduction electrons:</strong> increases;&nbsp; <strong>Resistance of LDR:</strong> decreases`,
+      optionData4 : `. <strong>Numbers of conduction electrons:</strong> increases;&nbsp; <strong>Resistance of LDR:</strong> increases`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '2'
+  },{
+    Question : `An electron has a de Broglie wavelength of \\( 3.5 \\times 10^{–10} \\)m.`,
+    Question2 : `Which of the following expressions gives the velocity of the electron in \\( ms^{–1} \\)?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( \\frac{6.63 \\times 10^{-34}}{9.11 \\times 10^{-31} \\times 3.5 \\times 10^{-10}} \\)`,
+      optionData2 : `. \\( \\frac{6.63 \\times 10^{-34}}{3.5 \\times 10^{-10}} \\)`,
+      optionData3 : `. \\( \\frac{9.11 \\times 10^{-31} \\times 3.5 \\times 10^{-10}}{6.63 \\times 10^{-34}} \\)`,
+      optionData4 : `. \\( \\frac{3.5 \\times 10^{-10}}{6.63 \\times 10^{-34}} \\)`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '3'
+  },{
+    Question : `Which of the following describes a change in energy of 1eV?`,
+    Question2 : ``,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. A charge of 1C is accelerated across a potential difference of 1V `,
+      optionData2 : `. A charge of 1C passes a point in a time of 1s.`,
+      optionData3 : `. An electron is accelerated across a potential difference of 1V.`,
+      optionData4 : `. There is a current of 1A for a time of 1s.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '4'
+  },{
+    Question : `The diagram shows a 1.5V cell in a circuit with two resistors. The cell has negligible internal resistance. The switch is closed.`,
+    Question2 : `What is the reading on the voltmeter?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2024/question-5-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. \\( 0.15V \\)`,
+      optionData2 : `. \\( 0.50V \\)`,
+      optionData3 : `. \\( 1.00V \\)`,
+      optionData4 : `. \\( 1.50V \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '5'
+  },{
+    Question : `A uniform wire is attached to a metre rule. The wire is connected in a circuit as shown. The distance <i>d</i> between the connections to the voltmeter is increased. The reading <i>V</i> on the voltmeter changes.`,
+    Question2 : `Which graph shows the relationship between <i>V</i> and <i>d</i>?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2024/question-6-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. <img class = "question_option_image" src = "/Images/WPH12 JAN 2024/question-6-a.png">`,
+      optionData2 : `. <img class = "question_option_image" src = "/Images/WPH12 JAN 2024/question-6-b.png">`,
+      optionData3 : `. <img class = "question_option_image" src = "/Images/WPH12 JAN 2024/question-6-c.png">`,
+      optionData4 : `. <img class = "question_option_image" src = "/Images/WPH12 JAN 2024/question-6-d.png">`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '6'
+  },{
+    Question : `A microphone is attached to an oscilloscope. The microphone detects a sound. The trace displayed on the oscilloscope screen is shown. One horizontal division represents a time of 0.015s.`,
+    Question2 : `Which of the following expressions gives the frequency of the sound in Hz?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2024/question-7-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. \\( 4 \\times 0.015 \\)`,
+      optionData2 : `. \\( 2 \\times 0.015 \\)`,
+      optionData3 : `. \\( \\frac{1}{2 \\times 0.015} \\)`,
+      optionData4 : `. \\( \\frac{1}{4 \\times 0.015} \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '7'
+  },{
+    Question : `At a distance d from a point source of light, the light intensity is <i>I</i>. Which of the following expressions gives the light intensity at a distance 2<i>d</i> from the source?`,
+    Question2 : ``,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( \\frac{I}{2} \\)`,
+      optionData2 : `. \\( \\frac{I}{4} \\)`,
+      optionData3 : `. \\( \\frac{I}{2 \\pi d^2} \\)`,
+      optionData4 : `. \\( \\frac{I}{4 \\pi d^2} \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '8'
+  },{
+    Question : `Two polarising filters, X and Y, are arranged between a light source and an observer as shown. The intensity of light reaching the observer is a maximum. The observer rotates filter X. The observer then rotates filter Y so that the intensity of light is a maximum again.`,
+    Question2 : `Which row of the table shows possible angles of rotation for the filters?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2024/question-9-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. <strong>Angle of rotation of X:</strong> 90°;&nbsp; <strong>Angle of rotation of Y:</strong> 180°`,
+      optionData2 : `. <strong>Angle of rotation of X:</strong> 180°;&nbsp; <strong>Angle of rotation of Y:</strong> 270°`,
+      optionData3 : `. <strong>Angle of rotation of X:</strong> 270°;&nbsp; <strong>Angle of rotation of Y:</strong> 90°`,
+      optionData4 : `. <strong>Angle of rotation of X:</strong> 360°;&nbsp; <strong>Angle of rotation of Y:</strong> 270°`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '9'
+  },{
+    Question : `In an atom, an electron drops from energy level \\( E_2 \\)
+ to energy level \\( E_1 \\), as shown. A photon of wavelength λ is emitted.`,
+    Question2 : `Which of the following expressions gives the energy \\( E_2 \\)?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2024/question-10-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. \\( \\frac{hc}{λ} - E_1 \\)`,
+      optionData2 : `. \\( \\frac{hc}{λ} + E_1 \\)`,
+      optionData3 : `. \\( \\frac{hλ}{c} - E_1 \\)`,
+      optionData4 : `. \\( \\frac{hλ}{c} + E_1 \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '10'
+  }
+],
+  WPH12O23 : [
+  {
+    Question : `The formula for a diffraction grating in the list of equations is <i>nλ</i> = <i>d</i> sin<i>θ</i>.`,
+    Question2 : `Which of the following quantities does not have units?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. <i>n</i>`,
+      optionData2 : `. <i>λ</i>`,
+      optionData3 : `. <i>d</i>`,
+      optionData4 : `. <i>θ</i>`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '1'
+  },{
+    Question : `The current-potential difference (p.d.) graph for a diode is shown.`,
+    Question2 : `Which of the following statements is correct for this diode?`,
+    QuestionImage : '<img src = "/Images/WPH12 OCT 2023/question-2-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. This diode does not conduct in the reverse direction.`,
+      optionData2 : `. The resistance of this diode in the reverse direction is infinite `,
+      optionData3 : `. The resistance of this diode decreases when the p.d. is above 0.7V.`,
+      optionData4 : `. This diode does not conduct when the p.d. is below 0.7V.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '2'
+  },{
+    Question : `Which of the following would increase the detail in an ultrasound scan?`,
+    Question2 : ``,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Increasing the duration of the pulses`,
+      optionData2 : `. Increasing the frequency of the ultrasound`,
+      optionData3 : `. Increasing the intensity of the ultrasound`,
+      optionData4 : `. Increasing the wavelength of the ultrasound`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '3'
+  },{
+    Question : `In a current-carrying copper wire, the drift velocity of the electrons is very small.`,
+    Question2 : `Which of the following best explains this?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. The charge on an electron is very small.`,
+      optionData2 : `. The cross-sectional area of the wire is very small.`,
+      optionData3 : `. The current in the wire is very large.`,
+      optionData4 : `. The number of electrons per unit volume for copper is very large.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '4'
+  },{
+    Question : `The graph shows how displacement varies with time for a particular point as a wave passes.`,
+    Question2 : `Which of the following statements is <strong>not</strong> correct?`,
+    QuestionImage : '<img src = "/Images/WPH12 OCT 2023/question-5-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. The time period can be determined directly from the graph.`,
+      optionData2 : `. The wavelength can be determined directly from the graph.`,
+      optionData3 : `. The wave could be longitudinal.`,
+      optionData4 : `. The wave could be transverse.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '5'
+  },{
+    Question : `The length of the string VY is 0.6m`,
+    Question2 : `Which of the following is the wavelength of the standing wave?`,
+    QuestionImage : '<img src = "/Images/WPH12 OCT 2023/question-6-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. 0.2m`,
+      optionData2 : `. 0.4m`,
+      optionData3 : `. 0.6m`,
+      optionData4 : `. 0.9m`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '6'
+  },{
+    Question : `Which of the following sections of the string would be in phase with each other?`,
+    Question2 : ``,
+    QuestionImage : '<img src = "/Images/WPH12 OCT 2023/question-6-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. VW and WX`,
+      optionData2 : `. WX and XY`,
+      optionData3 : `. VW and XY`,
+      optionData4 : `. No sections are in phase.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '7'
+  },{
+    Question : `A string is placed under tension T. A wave travels along the string. A second string has the same mass but twice the length. A wave travels along this string with the same velocity as the wave in the first string.`,
+    Question2 : `Which of the following is the tension in the second string?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( 4T \\)`,
+      optionData2 : `. \\( 2T \\)`,
+      optionData3 : `. \\( \\frac{T}{2} \\)`,
+      optionData4 : `. \\( \\frac{T}{4} \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '8'
+  },{
+    Question : `The diagram shows some of the energy levels for a hydrogen atom.`,
+    Question2 : `Which of the following expressions is equal to the lowest frequency of light possible from a transition between these energy levels?`,
+    QuestionImage : '<img src = "/Images/WPH12 OCT 2023/question-9-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. \\( \\frac{5.42 \\times 10^{-19}}{6.63 \\times 10^{-34}} \\)`,
+      optionData2 : `. \\( \\frac{1.36 \\times 10^{-19}}{6.63 \\times 10^{-34}} \\)`,
+      optionData3 : `. \\( \\frac{2.42 \\times 10^{-19} + 1.36 \\times 10^{-19}}{6.63 \\times 10^{-34}} \\)`,
+      optionData4 : `. \\( \\frac{2.42 \\times 10^{-19} - 1.36 \\times 10^{-19}}{6.63 \\times 10^{-34}} \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '9'
+  },{
+    Question : `Two photographs, X and Y, were taken of the same car windscreen. Photograph Y was taken through a polarising filter.`,
+    Question2 : `Which option is correct?`,
+    QuestionImage : '<img src = "/Images/WPH12 OCT 2023/question-10-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. <strong>Light transmitted through windscreen:</strong> plane polarised;&nbsp; <strong>Light reflected from windscreen:</strong> plane polarised`,
+      optionData2 : `. <strong>Light transmitted through windscreen:</strong> plane polarised;&nbsp; <strong>Light reflected from windscreen:</strong> unpolarised`,
+      optionData3 : `. <strong>Light transmitted through windscreen:</strong> unpolarised;&nbsp; <strong>Light reflected from windscreen:</strong> plane polarised`,
+      optionData4 : `. <strong>Light transmitted through windscreen:</strong> unpolarised;&Snbsp; <strong>Light reflected from windscreen:</strong> unpolarised`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '10'
+  }
+],
+  WPH12J23 : [
+  {
+    Question : `Waves may spread out as they pass an object.`,
+    Question2 : `Which of the following is the name of this process?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Diffraction`,
+      optionData2 : `. Interference`,
+      optionData3 : `. Reflection`,
+      optionData4 : `. Refraction`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '1'
+  },{
+    Question : `The time period of a wave decreases.`,
+    Question2 : `Which of the following properties of the wave increases?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Amplitude`,
+      optionData2 : `. Frequency`,
+      optionData3 : `. Speed`,
+      optionData4 : `. Wavelength`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '2'
+  },{
+    Question : `Monochromatic light is incident on a rectangular glass block. Some of the light is reflected and some of the light is refracted, as shown.`,
+    Question2 : `Which of the following properties does <strong>not</strong> decrease when the light is refracted?`,
+    QuestionImage : '<img src = "/Images/WPH12 JUN 2023/question-3-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. Frequency`,
+      optionData2 : `. Intensity`,
+      optionData3 : `. Speed`,
+      optionData4 : `. Wavelength`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '3'
+  },{
+    Question : `The current in a length of uniform wire is constant.`,
+    Question2 : `Which of the following graphs shows how the potential difference (p.d.) across the wire varies with the length of the wire?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. <img class = "question_option_image" src = "/Images/WPH12 JUN 2023/question-4-a.png">`,
+      optionData2 : `. <img class = "question_option_image" src = "/Images/WPH12 JUN 2023/question-4-b.png">`,
+      optionData3 : `. <img class = "question_option_image" src = "/Images/WPH12 JUN 2023/question-4-c.png">`,
+      optionData4 : `. <img class = "question_option_image" src = "/Images/WPH12 JUN 2023/question-4-d.png">`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '4'
+  },{
+    Question : `An electron has a de Broglie wavelength of \\(1.55 \\times 10^{-9}\\)m.`,
+    Question2 : `Which of the following gives the speed, in \\( ms^{-1} \\), of this electron? `,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( \\frac{9.11 \\times 10^{-31}}{6.63 \\times 10^{-34} \\times 1.55 \\times 10^{-9}} \\)`,
+      optionData2 : `. \\( \\frac{9.11 \\times 10^{-31} \\times 1.55 \\times 10^{-9}}{6.63 \\times 10^{-34}} \\)`,
+      optionData3 : `. \\( \\frac{6.63 \\times 10^{-34} \\times 1.55 \\times 10^{-9}}{9.11 \\times 10^{-31}} \\)`,
+      optionData4 : `. \\( \\frac{6.63 \\times 10^{-34}}{9.11 \\times 10^{-31} \\times 1.55 \\times 10^{-9}} \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '5'
+  },{
+    Question : `Two waves, of wavelength 12cm, leave a source in phase. The waves travel along different paths to a point X. The path difference at X is 18cm.`,
+    Question2 : `Which of the following is the phase difference between the two waves at X?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. 0 radians`,
+      optionData2 : `. \\( \\frac{\\pi}{2} \\) radians`,
+      optionData3 : `. \\( \\pi \\) radians`,
+      optionData4 : `. \\( \\frac{3 \\pi}{2} \\) radians`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '6'
+  },{
+    Question : `Two waves are coherent.`,
+    Question2 : `Which of the following <strong>must</strong> be true for the two waves?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. They are in antiphase with each other`,
+      optionData2 : `. They are in phase with each other.`,
+      optionData3 : `. They have the same amplitude.`,
+      optionData4 : `. They have the same frequency.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '7'
+  },{
+    Question : `Light from a laser is incident on a diffraction grating, causing a series of maxima to be seen on a screen. The positions of the central maximum and first order maximum are shown.`,
+    Question2 : `Which of the following changes would decrease the distance between the central maximum and the first order maximum?`,
+    QuestionImage : '<img src = "/Images/WPH12 JUN 2023/question-8-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. Decreasing the distance from the laser to the diffraction grating`,
+      optionData2 : `. Increasing the distance from the diffraction grating to the screen`,
+      optionData3 : `. Using a diffraction grating with more lines per millimetre`,
+      optionData4 : `. Using light with a smaller wavelength`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '8'
+  },{
+    Question : `Earth and Jupiter orbit the Sun, as shown. The distance from Earth to the Sun is \\( 1.49 \\times 10^{11} \\)m. The distance from Jupiter to the Sun is \\( 7.78 \\times 10^{11} \\)m. The intensity of sunlight at Jupiter is \\( I_J \\).`,
+    Question2 : `Which of the following can be used to calculate the intensity of the sunlight at Earth? `,
+    QuestionImage : '<img src = "/Images/WPH12 JUN 2023/question-9-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. \\( I_J \\times \\frac{(7.78 \\times 10^{11})^2}{(1.49 \\times 10^{11})^2} \\)`,
+      optionData2 : `. \\( I_J \\times 4 \\pi \\times \\frac{(7.78 \\times 10^{11})^2}{(1.49 \\times 10^{11})^2} \\)`,
+      optionData3 : `. \\( I_J \\times \\frac{7.78 \\times 10^{11}}{1.49 \\times 10^{11}} \\)`,
+      optionData4 : `. \\( I_J \\times 4 \\pi \\times \\frac{7.78 \\times 10^{11}}{1.49 \\times 10^{11}} \\)`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '9'
+  },{
+    Question : `As the temperature of the filament in a bulb decreases, the resistance of the filament changes.`,
+    Question2 : `Which of the following is the reason for this change in resistance of the filament? `,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Lattice vibrations decrease`,
+      optionData2 : `. Lattice vibrations increase`,
+      optionData3 : `. Number of conduction electrons decreases`,
+      optionData4 : `. Number of conduction electrons increases`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '10'
+  }
+],
+  WPH12F23 : [
+  {
+    Question : `The graph shows how current <i>I</i> &nbsp;varies with potential difference <i>V</i> &nbsp;for an electrical component.`,
+    Question2 : `Which component is represented by the graph?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2023/question-1-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. Diode`,
+      optionData2 : `. Filament lamp`,
+      optionData3 : `. Resistor at constant temperature`,
+      optionData4 : `. Thermistor`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '1'
+  },{
+    Question : `Monochromatic light travels through air and enters a glass block.`,
+    Question2 : `Which of the following quantities does <strong>not</strong> change as light enters the glass block?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Amplitude`,
+      optionData2 : `. Frequency`,
+      optionData3 : `. Speed`,
+      optionData4 : `. Wavelength`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '2'
+  },{
+    Question : `A ray of light approaches a boundary between air and glass, as shown. The angle of incidence is <i>i</i>.`,
+    Question2 : `Which of the following statements about total internal reflection (TIR) is correct for the ray of light at this boundary?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2023/question-3-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. TIR cannot take place.`,
+      optionData2 : `. TIR takes place if <i>i</i> is equal to the critical angle.`,
+      optionData3 : `. TIR takes place if <i>i</i> is greater than the critical angle.`,
+      optionData4 : `. TIR takes place if <i>i</i> is less than the critical angle.`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '3'
+  },{
+    Question : `The equation <i>nλ</i> = <i>d</i> sin<i>θ</i> can be used to determine the wavelength of laser light that has passed through a diffraction grating.`,
+    Question2 : `Which of the following is represented by <i>d</i> in the equation?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Distance between adjacent lines on the diffraction grating`,
+      optionData2 : `. Distance between the diffraction grating and the screen`,
+      optionData3 : `. Number of lines per metre on the diffraction grating`,
+      optionData4 : `. Order of the maximum observed on the screen`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '4'
+  },{
+    Question : `A bat is an animal that locates objects using a pulse-echo technique. A bat emits a pulse of sound waves that travel to an object. The bat detects the reflected pulse \\( 6.0ms^{-1} \\) later. Speed of sound = \\( 340ms^{-1} \\)`,
+    Question2 : `Which of the following gives the distance, in metres, of the object from the bat? `,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( 340 \\times 3.0 \\)`,
+      optionData2 : `. \\( 340 \\times 6.0 \\)`,
+      optionData3 : `. \\( 340 \\times 0.0030 \\)`,
+      optionData4 : `. \\( 340 \\times 0.0060 \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '5'
+  },{
+    Question : `A light dependent resistor is connected in a circuit, as shown. The intensity of light incident on the light dependent resistor decreases.`,
+    Question2 : `Which option is correct?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2023/question-6-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. <strong>Ammeter reading:</strong> decreases;&nbsp; <strong>Voltmeter reading:</strong> decreases`,
+      optionData2 : `. <strong>Ammeter reading:</strong> increases;&nbsp; <strong>Voltmeter reading:</strong> increases`,
+      optionData3 : `. <strong>Ammeter reading:</strong> decreases;&nbsp; <strong>Voltmeter reading:</strong> increases`,
+      optionData4 : `. <strong>Ammeter reading:</strong> increases;&nbsp; <strong>Voltmeter reading:</strong> decreases`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '6'
+  },{
+    Question : `The diagram shows some of the energy levels in an atom. Electrons in this atom are excited from the ground state to the energy level n = 3.`,
+    Question2 : `How many different frequencies of radiation can be emitted from this atom as electrons return to the ground state?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2023/question-7-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. 1`,
+      optionData2 : `. 2`,
+      optionData3 : `. 3`,
+      optionData4 : `. 4`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '7'
+  },{
+    Question : `When longitudinal waves pass through a material, compressions and rarefactions are formed.`,
+    Question2 : `Which of the following statements is correct?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Compressions are points where the displacement of particles is a maximum.`,
+      optionData2 : `. Compressions are points where the pressure is a minimum.`,
+      optionData3 : `. Rarefactions are points where the displacement of particles is a minimum.`,
+      optionData4 : `. Rarefactions are points where the pressure is a minimum.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '8'
+  },{
+    Question : `A lamp is connected in the circuit as shown. The cell has negligible internal resistance. In 30 seconds, the charge passing point P is 0.4C.`,
+    Question2 : `Which of the following gives the energy, in joules, transferred by the cell during this time?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2023/question-9-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. \\( 1.5 \\times 0.4 \\times 30 \\)`,
+      optionData2 : `. \\( 1.5 \\times 0.4 \\)`,
+      optionData3 : `. \\( \\frac{1.5 \\times 0.4}{30} \\)`,
+      optionData4 : `. \\( \\frac{1.5}{0.4 \\times 30} \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '9'
+  },{
+    Question : `Which of the following is <strong>not</strong> a correct statement about stationary waves?`,
+    Question2 : ``,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. All points between two adjacent nodes are in phase.`,
+      optionData2 : `. Antinodes are points of maximum amplitude.`,
+      optionData3 : `. The distance between adjacent nodes is equal to one wavelength.`,
+      optionData4 : `. The net energy transfer along a stationary wave is zero.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '10'
+  }
+],
+  WPH12O22 : [
+  {
+    Question : `Which of the following pairs of quantities could be used to calculate the speed of a wave?`,
+    Question2 : ``,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Amplitude and Frequency`,
+      optionData2 : `. Amplitude and Wavelength`,
+      optionData3 : `. Period and Frequency`,
+      optionData4 : `. Period and Wavelength`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '1'
+  },{
+    Question : `The diagram shows four possible transitions of electrons in an atom.`,
+    Question2 : `Which of the transitions will result in the emission of a photon with the longest wavelength?`,
+    QuestionImage : '<img src = "/Images/WPH12 OCT 2022/question-2-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. A`,
+      optionData2 : `. B`,
+      optionData3 : `. C`,
+      optionData4 : `. D`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '2'
+  },{
+    Question : `A negative temperature coefficient thermistor and a fixed resistor are connected in a circuit, as shown. The temperature of the thermistor increases.`,
+    Question2 : `Which row of the table shows the changes to the ammeter and voltmeter readings as the temperature increases? `,
+    QuestionImage : '<img src = "/Images/WPH12 OCT 2022/question-3-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. <strong>Ammeter reading:</strong> decreases;&nbsp; <strong>Voltmeter reading:</strong> decreases`,
+      optionData2 : `. <strong>Ammeter reading:</strong> decreases;&nbsp; <strong>Voltmeter reading:</strong> increases`,
+      optionData3 : `. <strong>Ammeter reading:</strong> increases;&nbsp; <strong>Voltmeter reading:</strong> decreases`,
+      optionData4 : `. <strong>Ammeter reading:</strong> increases;&nbsp; <strong>Voltmeter reading:</strong> increases`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '3'
+  },{
+    Question : `Two students are discussing longitudinal waves. <strong>Student 1</strong> states that at the centre of a compression the displacement of molecules is zero. <strong>Student 2</strong> states that at the centre of a rarefaction the displacement of molecules is zero.`,
+    Question2 : `Which of the students’ statements are correct?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Both`,
+      optionData2 : `. Neither`,
+      optionData3 : `. Only student 1`,
+      optionData4 : `. Only student 2`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '4'
+  },{
+    Question : `The graphs show how current <i>I</i> &nbsp;varies with potential difference <i>V</i> &nbsp;for three components.`,
+    Question2 : `Which of the following components is <strong>not</strong> represented by any of the three graphs?`,
+    QuestionImage : '<img src = "/Images/WPH12 OCT 2022/question-5-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. Diode`,
+      optionData2 : `. Filament bulb`,
+      optionData3 : `. Negative temperature coefficient thermistor`,
+      optionData4 : `. Ohmic conductor`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '5'
+  },{
+    Question : `When the temperature of a metal wire increases, the resistance of the wire increases.`,
+    Question2 : `Which of the following explains this increase in resistance?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. The amplitude of the lattice vibrations decreases`,
+      optionData2 : `. The amplitude of the lattice vibrations increases`,
+      optionData3 : `. The number of conduction electrons decreases`,
+      optionData4 : `. The number of conduction electrons increases`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '6'
+  },{
+    Question : `The current at a point in a circuit is 1.25A.`,
+    Question2 : `Which of the following expressions gives the number of electrons passing the point in 45 seconds?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( \\frac{1.25 \\times 45}{1.60 \\times 10^{-19}} \\)`,
+      optionData2 : `. \\( \\frac{1.25 \\times 1.60 \\times 10^{-19}}{45} \\)`,
+      optionData3 : `. \\( \\frac{1.60 \\times 10^{-19}}{1.25 \\times 45} \\)`,
+      optionData4 : `. \\( \\frac{45}{1.25 \\times 1.60 \\times 10^{-19}} \\)`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '7'
+  },{
+    Question : `A ray of light is incident on a glass block, as shown.`,
+    Question2 : `Which of the following does <strong>not</strong> occur when the ray of light is incident on the glass block?`,
+    QuestionImage : '<img src = "/Images/WPH12 OCT 2022/question-8-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. Diffraction`,
+      optionData2 : `. Polarisation`,
+      optionData3 : `. Reflection`,
+      optionData4 : `. Refraction`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '8'
+  },{
+    Question : `Ultrasound scans can be used to create an image of a patient’s kidneys. For each ultrasound pulse sent into the body, a number of pulses are detected.`,
+    Question2 : `Which of the following explains why a number of pulses are detected?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Interference occurs when the pulse is in the body.`,
+      optionData2 : `. The ultrasound reflects off different layers within the body`,
+      optionData3 : `. The ultrasound has a very high frequency.`,
+      optionData4 : `. The ultrasound has a very large wavelength.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '9'
+  },{
+    Question : `Which of the following units is equivalent to the volt? `,
+    Question2 : ``,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( Cs^{-1} \\)`,
+      optionData2 : `. \\( Js^{-1} \\)`,
+      optionData3 : `. \\( JC^{-1} \\)`,
+      optionData4 : `. \\( Js \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '10'
+  }
+],
+  WPH12J22 : [
+  {
+    Question : `A ray of light is incident on the boundary between two materials, x and y, as shown. The refractive index value for material x is \\( n_x \\) and for material y is \\( n_y \\).`,
+    Question2 : `Which row of the table gives the conditions required for total internal reflection to take place at this boundary?`,
+    QuestionImage : '<img src = "/Images/WPH12 JUN 2022/question-1-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. <strong>Condition 1:</strong> \\( i \\gt \\) critical angle;&nbsp; <strong>Condition 2:</strong> \\( n_x \\gt n_y \\)`,
+      optionData2 : `. <strong>Condition 1:</strong> \\( i \\gt \\) critical angle;&nbsp; <strong>Condition 2:</strong> \\( n_x \\lt n_y \\)`,
+      optionData3 : `. <strong>Condition 1:</strong> \\( i \\lt \\) critical angle;&nbsp; <strong>Condition 2:</strong> \\( n_x \\gt n_y \\)`,
+      optionData4 : `. <strong>Condition 1:</strong> \\( i \\lt \\) critical angle;&nbsp; <strong>Condition 2:</strong> \\( n_x \\lt n_y \\)`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '1'
+  },{
+    Question : `The graph shows how the displacement x of particles in a wave varies with time t. The speed of the wave is not known.`,
+    Question2 : `Which of the following can <strong>not</strong> be determined from a graph of displacement against time for the particles in a wave?`,
+    QuestionImage : '<img src = "/Images/WPH12 JUN 2022/question-2-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. Amplitude`,
+      optionData2 : `. Frequency`,
+      optionData3 : `. Period`,
+      optionData4 : `. Wavelength`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '2'
+  },{
+    Question : `When the distance between the Sun and the planet Mercury is \\( 4.60 \\times 10^{10}m \\), the intensity of solar radiation at the surface of Mercury is \\( 1.45 \\times 10^4 Wm^{-2} \\).`,
+    Question2 : `Which of the following expressions gives the power of the Sun?
+ `,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( (1.45 \\times 10^4) \\ (\\pi) \\ (4.60 \\times 10^{10})^2 \\)`,
+      optionData2 : `. \\( (1.45 \\times 10^4) \\ (4 \\pi) \\ (4.60 \\times 10^{10})^2 \\)`,
+      optionData3 : `. \\( \\frac{(1.45 \\times 10^4)}{(\\pi)(4.60 \\times 10^{10})^2} \\)`,
+      optionData4 : `. \\( \\frac{(1.45 \\times 10^4)}{(4 \\pi)(4.60 \\times 10^{10})^2} \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '3'
+  },{
+    Question : `A ray of unpolarised light is incident on a polarising filter. The polarising filter transmits light of intensity <i>I</i>, as shown. The polarising filter is then rotated in the direction shown on the diagram.`,
+    Question2 : `Which of the following gives the intensity of light transmitted after the filter has been rotated 90°?`,
+    QuestionImage : '<img src = "/Images/WPH12 JUN 2022/question-4-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. \\( 0 \\)`,
+      optionData2 : `. \\( \\frac{I}{4} \\)`,
+      optionData3 : `. \\( \\frac{I}{2} \\)`,
+      optionData4 : `. \\( I \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '4'
+  },{
+    Question : `A laser, diffraction grating and screen are set up as shown. The position of the central maximum is O and the position of the first order maximum is X. The diffraction grating has 300 lines per mm.`,
+    Question2 : `Which of the following expressions gives the wavelength of the laser light?`,
+    QuestionImage : '<img src = "/Images/WPH12 JUN 2022/question-5-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. \\( (300,000) \\times (\\frac{0.378}{2.000}) \\)`,
+      optionData2 : `. \\( (300,000) \\times (\\frac{0.378}{2.035}) \\)`,
+      optionData3 : `. \\( (\\frac{1}{300,000}) \\times (\\frac{0.378}{2.000}) \\)`,
+      optionData4 : `. \\( (\\frac{1}{300,000}) \\times (\\frac{0.378}{2.035}) \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '5'
+  },{
+    Question : `At a point in a circuit there is a current of 3.0A.`,
+    Question2 : `Which of the following gives the total charge passing this point in 2.0 minutes?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. 0.025C`,
+      optionData2 : `. 1.5C`,
+      optionData3 : `. 6.0C`,
+      optionData4 : `. 360C`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '6'
+  },{
+    Question : `The diagram shows an electron transition between two energy levels in a hydrogen atom.`,
+    Question2 : `Which of the following could <strong>not</strong> have caused this transition?`,
+    QuestionImage : '<img src = "/Images/WPH12 JUN 2022/question-7-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. The atom absorbing a photon with an energy of 13.6eV.`,
+      optionData2 : `. The atom absorbing a photon with an energy of 10.2eV.`,
+      optionData3 : `. An electron with a kinetic energy of 13.6 eV colliding with the atom.`,
+      optionData4 : `. An electron with a kinetic energy of 10.2 eV colliding with the atom.`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '7'
+  },{
+    Question : `A battery is connected to identical, uniform, nichrome wires, PQ and RS. A voltmeter is connected to the wires as shown. The battery has negligible internal resistance.`,
+    Question2 : `Which of the following is the reading on the voltmeter?`,
+    QuestionImage : '<img src = "/Images/WPH12 JUN 2022/question-8-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. 1.0V`,
+      optionData2 : `. 2.0V`,
+      optionData3 : `. 3.0V`,
+      optionData4 : `. 4.0V`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '8'
+  },{
+    Question : `The number of conduction electrons in a light dependent resistor changes as light intensity increases.`,
+    Question2 : `Which of the following best explains how the number of conduction electrons changes?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. It decreases because the lattice ions vibrate with a larger amplitude.`,
+      optionData2 : `. It increases because the lattice ions vibrate with a larger amplitude.`,
+      optionData3 : `. It increases because the electrons gain energy from the photons of light.`,
+      optionData4 : `. It decreases because electrons are released due to the photoelectric effect.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '9'
+  },{
+    Question : `In 1927, G P Thomson first demonstrated that electrons passing through a nickel crystal produce a diffraction pattern.`,
+    Question2 : `Which of the following can be concluded from this observation?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Electrons behave as particles.`,
+      optionData2 : `. Electrons behave as waves.`,
+      optionData3 : `. Electrons behave as both particles and waves.`,
+      optionData4 : `. Electrons behave as neither particles nor waves.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '10'
+  }
+],
+  WPH12F22 : [
+  {
+    Question : `Which of the following units is equivalent to the volt?`,
+    Question2 : ``,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( Js^{-1} \\)`,
+      optionData2 : `. \\( Ws^{-1} \\)`,
+      optionData3 : `. \\( JC^{-1} \\)`,
+      optionData4 : `. \\( WC^{-1} \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '1'
+  },{
+    Question : `The de Broglie wavelength for a moving electron is \\( 5.47 \\times 10^{-10}m. \\)`,
+    Question2 : `Which of the following expressions gives the speed of the electron in \\( ms^{-1} \\)?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( \\frac{(6.63 \\times 10^{-34})}{(9.11 \\times 10^{-31})(5.47 \\times 10^{-10})} \\)`,
+      optionData2 : `. \\( \\frac{(6.63 \\times 10^{-34})}{(1.60 \\times 10^{-19})(5.47 \\times 10^{-10})} \\)`,
+      optionData3 : `. \\( \\frac{(9.11 \\times 10^{-31})(5.47 \\times 10^{-10})}{(6.63 \\times 10^{-34})} \\)`,
+      optionData4 : `. \\( \\frac{(1.60 \\times 10^{-19})(5.47 \\times 10^{-10})}{(6.63 \\times 10^{-34})} \\)`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '2'
+  },{
+    Question : `The diagram shows a cell of e.m.f. <i>ε</i> and internal resistance <i>r</i>. The cell is connected in series with two resistors of resistance \\( R_1 \\) and \\( R_2 \\). The potential difference across \\( R_1 \\) is \\( V_1 \\). The current in the circuit is <i>I</i>`,
+    Question2 : `Which of the following expressions is correct?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2022/question-3-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. \\( ε = V_1 + Ir \\)`,
+      optionData2 : `. \\( ε = IR_1 + Ir \\)`,
+      optionData3 : `. \\( ε = IR_2 + Ir \\)`,
+      optionData4 : `. \\( ε = V_1 + IR_2 + Ir \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '3'
+  },{
+    Question : `As temperature increases, the resistance of a negative temperature coefficient thermistor changes.`,
+    Question2 : `Which of the following describes the reason for this change?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. Collisions between electrons and ions occur less frequently.`,
+      optionData2 : `. More conduction electrons are released.`,
+      optionData3 : `. The ions in the thermistor vibrate less.`,
+      optionData4 : `. The ions in the thermistor vibrate more.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '4'
+  },{
+    Question : `The diagram shows refraction of a ray of light as it passes through three transparent substances, L, M and N. The speeds of light in the three substances are \\( v_L \\), \\( v_M \\) and \\( v_N \\), respectively.`,
+    Question2 : `Which of the following shows the relationship between \\( v_L \\), \\( v_M \\) and \\( v_ N \\)?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2022/question-5-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. \\( v_L \\gt v_M \\gt v_N \\)`,
+      optionData2 : `. \\( v_L \\gt v_N \\gt v_M \\)`,
+      optionData3 : `. \\( v_N \\gt v_M \\gt v_L \\)`,
+      optionData4 : `. \\( v_M \\gt v_N \\gt v_L \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '5'
+  },{
+    Question : `The diagram shows refraction of a ray of light as it passes through three transparent substances, L, M and N. The speeds of light in the three substances are \\( v_L \\), \\( v_M \\) and \\( v_N \\), respectively.`,
+    Question2 : `Which of the following could result in a ray of light undergoing total internal reflection?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2022/question-5-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. Light travelling from L to M`,
+      optionData2 : `. Light travelling from L to N`,
+      optionData3 : `. Light travelling from M to L`,
+      optionData4 : `. Light travelling from N to M`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '6'
+  },{
+    Question : `The diagram shows how the displacement varies with distance along a stationary wave at two instants of time.`,
+    Question2 : `Which of the following statements is correct?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2022/question-7-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. Points W and X are in antiphase.`,
+      optionData2 : `. Points W and Y are in phase.`,
+      optionData3 : `. Points X and Y are in phase.`,
+      optionData4 : `. Points X and Z are in antiphase.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'correct'
+    },
+    QuestionID : '7'
+  },{
+    Question : `The graph shows how current <i>I</i> &nbsp;varies with potential difference <i>V</i> &nbsp;for an electrical component.`,
+    Question2 : `Which component is represented by this graph?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2022/question-8-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. Diode`,
+      optionData2 : `. Filament lamp`,
+      optionData3 : `. Ohmic conductor`,
+      optionData4 : `. Thermistor`
+    },
+    optionNo : {
+      A : 'correct',
+      B : 'wrong',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '8'
+  },{
+    Question : `Two waves with wavelength λ are produced by the same source. The waves travel different distances and then meet. At the point where they meet, the path difference between the two waves is \\( \\frac{λ}{8} \\).`,
+    Question2 : `Which of the following is the phase difference, in radians, between the two waves?`,
+    QuestionImage : '',
+    Options : {
+      optionData1 : `. \\( \\frac{\\pi}{2} \\)`,
+      optionData2 : `. \\( \\frac{\\pi}{4} \\)`,
+      optionData3 : `. \\( \\frac{\\pi}{8} \\)`,
+      optionData4 : `. \\( \\frac{\\pi}{16} \\)`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'correct',
+      C : 'wrong',
+      D : 'wrong'
+    },
+    QuestionID : '9'
+  },{
+    Question : `A light dependent resistor (LDR) and a fixed resistor are connected in a circuit, as shown. The intensity of the light incident on the LDR is increased.`,
+    Question2 : `Which of the following does <strong>not</strong> take place as the light intensity is increased?`,
+    QuestionImage : '<img src = "/Images/WPH12 JAN 2022/question-10-image.png" class = "main_question_image">',
+    Options : {
+      optionData1 : `. The current in the circuit increases.`,
+      optionData2 : `. The potential difference across the fixed resistor increases.`,
+      optionData3 : `. The total power dissipated in the circuit decreases.`,
+      optionData4 : `. The resistance of the LDR decreases.`
+    },
+    optionNo : {
+      A : 'wrong',
+      B : 'wrong',
+      C : 'correct',
+      D : 'wrong'
+    },
+    QuestionID : '10'
+  }
+],
+
 
   //TOPIC-WISE Question
 

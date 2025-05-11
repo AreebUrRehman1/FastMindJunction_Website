@@ -1,0 +1,42 @@
+/* Header CSS */
+.course {
+  font-weight: bold;
+}
+
+/* First Section CSS */
+.first_section {
+  margin-top: 10.125rem; /* 162px */
+}
+
+.first_section_button {
+  text-align: center;
+  margin-top: 3.125rem; /* 50px */
+  display: flex;
+  flex-direction: row;
+  column-gap: 3.125rem; /* 50px */
+  justify-content: center;
+}
+
+.easy, .medium, .hard {
+  padding: 1.25rem 1.5625rem; /* 20px 25px */
+  border-radius: 6.25rem; /* 100px */
+  border: none;
+  font-size: 1.5625rem; /* 25px */
+  font-weight: bold;
+  background: linear-gradient(90deg, #4ade80, #2dd4bf);
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.easy:hover, .medium:hover, .hard:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg, #4ade80, #2dd4bf);
+  box-shadow: 0 0 0.9375rem rgba(74, 222, 128, 0.6); /* 15px */
+  transform: scale(1.05);
+  color: white;
+}
+
+body {
+  height: 52.8125rem; /* 847px */
+}

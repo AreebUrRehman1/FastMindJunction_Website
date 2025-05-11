@@ -1,6 +1,7 @@
 export const mcqaData = {
   //YEARLY PAST PAPER 
 
+  //WPH11
   WPH11F22 : [ 
   {
     mainAnswer : `
@@ -3046,6 +3047,3123 @@ export const mcqaData = {
   }
 ],
   WPH11F24 : [
+  {
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> Stress is defined as force per unit area. Mathematically:
+          \\[
+          \\text{Stress} = \\frac{\\text{Force}}{\\text{Area}}
+          \\]
+          The SI unit of force is \\( \\mathrm{N} \\) (newton) and the SI unit of area is \\( \\mathrm{m}^2 \\).
+        </li>
+        <li>Thus, the unit of stress becomes:
+          \\[
+          \\text{Stress Unit} = \\frac{\\mathrm{N}}{\\mathrm{m}^2} = \\mathrm{Nm}^{-2}
+          \\]
+          which matches Option D.
+        </li>
+        <li>Therefore, \\( \\mathrm{Nm}^{-2} \\) is the correct SI unit for stress.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Units):</strong>
+        <p>\\( \\mathrm{kgm}^{-2} \\) represents mass per unit area, not stress.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect Dimensional Formula):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{kg}^{-2} \\) does not correspond to any standard physical quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Inverted Units):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{N}^{-1} \\) suggests area per unit force, which is not stress.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember: Stress, Pressure, and Energy Density all share the same unit \\( \\mathrm{Nm}^{-2} \\) or \\( \\mathrm{Pa} \\) (Pascal) in SI units.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '1'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> A vector quantity has both magnitude and direction. Let’s check each term in Option A:
+          <ul>
+            <li><strong>Acceleration:</strong> It is a vector quantity because it has both magnitude and direction.</li>
+            <li><strong>Momentum:</strong> It is also a vector quantity defined by \\( \\vec{p} = m \\vec{v} \\), where \\( m \\) is mass and \\( \\vec{v} \\) is velocity.</li>
+            <li><strong>Weight:</strong> Weight is the force due to gravity and acts towards the center of the Earth. It is a vector quantity given by:
+              \\[
+              \\vec{W} = m \\vec{g}
+              \\]
+            </li>
+          </ul>
+          Since all three are vector quantities, Option A is correct.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Only Scalars):</strong>
+        <p>Density, time, and work done are all scalar quantities — they only have magnitude, no direction.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Mixed Quantities):</strong>
+        <p>Displacement and velocity are vectors, but mass is a scalar quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Mixed Quantities):</strong>
+        <p>Force is a vector quantity, but kinetic energy and temperature are scalars.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember: Scalars have only magnitude, while vectors have both magnitude and direction. Examples of vectors include force, velocity, acceleration, and displacement.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '2'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The elastic strain energy \\( E \\) stored in a spring is related to the force \\( F \\) and the extension \\( x \\) by:
+          \\[
+          E = \\frac{1}{2} F x
+          \\]
+        </li>
+        <li>Rearranging the formula to find \\( x \\):
+          \\[
+          x = \\frac{2E}{F}
+          \\]
+        </li>
+        <li>Substituting the given values:
+          <ul>
+            <li>Force \\( F = 3.0\\,\\mathrm{N} \\)</li>
+            <li>Elastic strain energy \\( E = 0.04\\,\\mathrm{J} \\)</li>
+          </ul>
+        </li>
+        <li>Thus, the extension \\( x \\) is:
+          \\[
+          x = \\frac{2 \\times 0.04}{3.0}
+          \\]
+          which matches Option A.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Square root not needed):</strong>
+        <p>Taking the square root is unnecessary, as the direct relationship between energy, force, and extension does not involve a square root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong arrangement):</strong>
+        <p>This option incorrectly takes the square root and inverts the relation, which is not consistent with the energy formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Inverse relationship mistake):</strong>
+        <p>This option flips the formula, incorrectly suggesting that force is divided by energy instead of energy divided by force.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember, for springs, the formula \\( E = \\frac{1}{2} F x \\) allows you to solve for the extension \\( x \\) directly without any square roots or inversions.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '3'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> 
+          - When the cyclist is moving on a horizontal road at constant speed, the power output \\( P \\) is constant to overcome resistive forces.<br><br>
+          - When the cyclist starts moving up the hill, additional power is needed to overcome the component of gravitational force along the slope. 
+          Since the speed remains constant, the increase in required power happens immediately as she hits the incline.<br><br>
+          - Thus, the graph should show a sudden jump to a higher constant power value, matching the behavior shown in <strong>Option D</strong>.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Gradual increase from zero):</strong>
+        <p>Shows a power output starting from zero and gradually increasing, which does not match the situation described (constant speed, constant resistive force initially).</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Gradual slope up):</strong>
+        <p>Depicts a gradual rise after constant power, but the transition to uphill work is sudden, not gradual.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Sudden decrease):</strong>
+        <p>Shows a sudden drop in power, which contradicts the fact that more power is needed to climb uphill, not less.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Whenever motion involves climbing a slope while maintaining constant speed, expect an immediate increase in power output due to work against gravity!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '4'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> When a table tennis ball falls, air resistance acts upward, opposing the motion. The student's calculations <strong>ignored air resistance</strong>, assuming only gravitational acceleration \\( g \\).
+          <ul>
+            <li>Because of air resistance, the ball takes <strong>longer to fall</strong> than predicted. So, the actual time \\( t \\) is <strong>greater</strong> than the calculated time.</li>
+            <li>Air resistance reduces the ball's acceleration and limits its final velocity. Therefore, the actual velocity \\( v \\) is <strong>less</strong> than the calculated velocity.</li>
+          </ul>
+        </li>
+        <li>Mathematically, without air resistance, the velocity just before hitting the ground would be:
+          \\[
+          v = \\sqrt{2gh}
+          \\]
+          where \\( g \\) is gravitational acceleration and \\( h \\) is the height dropped.
+        </li>
+        <li>With air resistance, the ball reaches a lower velocity than \\( \\sqrt{2gh} \\) and takes longer to cover the same distance.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Both Less Than Calculated):</strong>
+        <p>This would mean the ball falls faster and slower, which is inconsistent with the effects of air resistance.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Time Less, Velocity Greater):</strong>
+        <p>Air resistance slows objects down, so time cannot be less and velocity cannot be greater.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Both Greater Than Calculated):</strong>
+        <p>Velocity cannot be greater with air resistance acting against the motion.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always consider air resistance when dealing with real-world free-fall problems. It slows objects down compared to idealized (no air resistance) scenarios!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '5'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight \\( W \\) of the bird is supported by the tension in the string, which has vertical and horizontal components. The vertical component of the tension must balance the weight of the bird. Since the string makes an angle of 80° with each vertical post, the vertical component of the tension is given by:
+          \\[
+          T \\cos(80^\\circ)
+          \\]
+          Since there are two equal tension components supporting the bird, the total vertical component is \\( 2 T \\cos(80^\\circ) \\). To balance the bird's weight, we write:
+          \\[
+          2 T \\cos(80^\\circ) = W
+          \\]
+          Solving for \\( T \\), we get:
+          \\[
+          T = \\frac{W}{2 \\cos(80^\\circ)}
+          \\]
+          This matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Sine Instead of Cosine):</strong>
+        <p>This option uses \\( \\sin(80^\\circ) \\), which is incorrect because we are interested in the vertical component of the tension, which involves the cosine of the angle.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly multiplies \\( W \\) by \\( 2 \\sin(80^\\circ) \\), which doesn't represent the correct relationship between the tension and the weight.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Cosine and Wrong Formula):</strong>
+        <p>This option uses \\( 2 \\cos(80^\\circ) \\) incorrectly, where the formula is not balanced correctly to represent the forces acting on the system.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember that when dealing with forces at angles, the vertical component involves the cosine of the angle and the horizontal component involves the sine.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '6'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The stiffness of a spring is represented by the spring constant \\( k \\), which defines the relationship between the force \\( F \\) applied to the spring and its extension \\( x \\). This relationship is given by Hooke's Law:
+          \\[
+          F = k \\times x
+          \\]
+        </li>
+        <li>The graph shows how the length of the spring varies with the applied force. The gradient of the graph represents the ratio of force to extension, which is equal to the spring constant \\( k \\):
+          \\[
+          k = \\frac{F}{x}
+          \\]
+        </li>
+        <li>Therefore, the stiffness of the spring is the gradient of the graph, which matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="calculation">
+      🧮 <strong>Calculation:</strong><br><br>
+      The gradient of the graph is given by the ratio of the applied force \\( F \\) to the extension \\( x \\):
+      \\[
+      k = \\frac{F}{x}
+      \\]
+      This shows the spring's stiffness.
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect:</strong>
+        <p>The area between the graph and the x-axis does not represent the spring constant. It would correspond to the work done to stretch the spring.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect:</strong>
+        <p>The area between the graph and the y-axis is not relevant to the calculation of stiffness.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect:</strong>
+        <p>Taking the inverse of the gradient does not give the stiffness of the spring.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> The spring constant \\( k \\) is a measure of the stiffness of a spring. A steeper gradient on the graph indicates a stiffer spring.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '7'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight of the cube \\( W \\) can be expressed as the product of its volume and the gravitational field strength \\( g \\), which is:
+          \\[
+          W = V \\times p \\times g
+          \\]
+          where \\( p \\) is the density of the material, and \\( V \\) is the volume of the cube. The volume of the cube is given by:
+          \\[
+          V = L^3
+          \\]
+          where \\( L \\) is the length of each side of the cube.
+        </li>
+        <li>Substituting for \\( V \\) in the equation for \\( W \\), we get:
+          \\[
+          W = L^3 \\times p \\times g
+          \\]
+        </li>
+        <li>Rearranging for \\( L \\), we have:
+          \\[
+          L^3 = \\frac{W}{p \\times g}
+          \\]
+        </li>
+        <li>Taking the cube root of both sides gives the length of each side of the cube:
+          \\[
+          L = \\sqrt[3]{\\frac{W}{p \\times g}}
+          \\]
+          This matches Option D: \\( {3}\\sqrt{\\frac{W}{pg}} \\).
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly raises the entire expression to the power of 3 instead of taking the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Square Root instead of Cube Root):</strong>
+        <p>This option incorrectly applies the square root instead of the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong Rearrangement):</strong>
+        <p>This option incorrectly cubes the denominator instead of applying the cube root to the whole expression.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> When solving for the length of a cube from its volume and density, remember to take the cube root of the expression for the volume.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '8'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+  <h3>✅ Why is Option C correct?</h3>
+  <ul>
+    <li><strong>Explanation:</strong> The yield stress is the stress at which a material begins to deform plastically. From the graph, wire P has a higher yield point (first noticeable deviation from linearity) compared to wire Q. Yield stress is found at the initial curve peak, and P clearly reaches a higher stress value earlier.
+      \\[
+      \\text{Yield Stress} \\propto \\text{Stress at Elastic Limit}
+      \\]
+      Since P's elastic limit is higher than Q's, P has a greater yield stress.
+    </li>
+  </ul>
+</div>
+
+<div class="other-options">
+  <div>
+    <strong>❌ Option A – Incorrect (Breaking stress comparison):</strong>
+    <p>Wire Q has a higher final stress before breaking compared to wire P, so P does not have a greater breaking stress.</p>
+  </div>
+  <div>
+    <strong>❌ Option B – Incorrect (Breaking strain comparison):</strong>
+    <p>Wire Q stretches more before breaking, meaning Q has a greater breaking strain than P.</p>
+  </div>
+  <div>
+    <strong>❌ Option D – Incorrect (Young modulus comparison):</strong>
+    <p>Young's modulus is the slope of the initial linear part of the graph. P has a steeper slope than Q initially, indicating P has a higher Young modulus, not lower.</p>
+  </div>
+</div>
+
+<div class="tip-box">
+  💡 <strong>Tip:</strong> Always check the initial slope for Young modulus, the first peak for yield stress, and the final points for breaking stress and strain.
+</div>
+
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '9'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> From the area under the acceleration-time graph, we know that the area represents the change in velocity \\( \\Delta v \\). The velocity-time graph can then be found, and the area under it will give the distance moved by the object. The expression for the distance moved in terms of the area \\( X \\) is given by:
+          \\[
+          \\text{Distance} = \\frac{X t}{2}
+          \\]
+        </li>
+        <li><strong>Explanation of the Formula:</strong> The area under the acceleration-time graph gives the change in velocity \\( \\Delta v \\), and using the relation for distance, the distance moved is proportional to the area under the graph multiplied by time, divided by 2 to account for the uniform acceleration from rest.
+        </li>
+        <li>Thus, the correct expression is \\( \\frac{Xt}{2} \\), which matches Option D.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (No time dependence):</strong>
+        <p>This option fails to consider the time factor when calculating the distance moved.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect formula):</strong>
+        <p>This option divides the area by 2, but does not account for the time variable properly in the distance formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong multiplication with time):</strong>
+        <p>This option multiplies the area by time, but does not divide by 2 as required in the distance formula.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always check that both time and acceleration are correctly accounted for in motion problems involving uniform acceleration from rest.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '10'
+  }
+],
+
+  //WHP12 Not Done
+  WPH12F24 : [
+  {
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> Stress is defined as force per unit area. Mathematically:
+          \\[
+          \\text{Stress} = \\frac{\\text{Force}}{\\text{Area}}
+          \\]
+          The SI unit of force is \\( \\mathrm{N} \\) (newton) and the SI unit of area is \\( \\mathrm{m}^2 \\).
+        </li>
+        <li>Thus, the unit of stress becomes:
+          \\[
+          \\text{Stress Unit} = \\frac{\\mathrm{N}}{\\mathrm{m}^2} = \\mathrm{Nm}^{-2}
+          \\]
+          which matches Option D.
+        </li>
+        <li>Therefore, \\( \\mathrm{Nm}^{-2} \\) is the correct SI unit for stress.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Units):</strong>
+        <p>\\( \\mathrm{kgm}^{-2} \\) represents mass per unit area, not stress.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect Dimensional Formula):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{kg}^{-2} \\) does not correspond to any standard physical quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Inverted Units):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{N}^{-1} \\) suggests area per unit force, which is not stress.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember: Stress, Pressure, and Energy Density all share the same unit \\( \\mathrm{Nm}^{-2} \\) or \\( \\mathrm{Pa} \\) (Pascal) in SI units.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '1'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> A vector quantity has both magnitude and direction. Let’s check each term in Option A:
+          <ul>
+            <li><strong>Acceleration:</strong> It is a vector quantity because it has both magnitude and direction.</li>
+            <li><strong>Momentum:</strong> It is also a vector quantity defined by \\( \\vec{p} = m \\vec{v} \\), where \\( m \\) is mass and \\( \\vec{v} \\) is velocity.</li>
+            <li><strong>Weight:</strong> Weight is the force due to gravity and acts towards the center of the Earth. It is a vector quantity given by:
+              \\[
+              \\vec{W} = m \\vec{g}
+              \\]
+            </li>
+          </ul>
+          Since all three are vector quantities, Option A is correct.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Only Scalars):</strong>
+        <p>Density, time, and work done are all scalar quantities — they only have magnitude, no direction.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Mixed Quantities):</strong>
+        <p>Displacement and velocity are vectors, but mass is a scalar quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Mixed Quantities):</strong>
+        <p>Force is a vector quantity, but kinetic energy and temperature are scalars.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember: Scalars have only magnitude, while vectors have both magnitude and direction. Examples of vectors include force, velocity, acceleration, and displacement.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '2'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The elastic strain energy \\( E \\) stored in a spring is related to the force \\( F \\) and the extension \\( x \\) by:
+          \\[
+          E = \\frac{1}{2} F x
+          \\]
+        </li>
+        <li>Rearranging the formula to find \\( x \\):
+          \\[
+          x = \\frac{2E}{F}
+          \\]
+        </li>
+        <li>Substituting the given values:
+          <ul>
+            <li>Force \\( F = 3.0\\,\\mathrm{N} \\)</li>
+            <li>Elastic strain energy \\( E = 0.04\\,\\mathrm{J} \\)</li>
+          </ul>
+        </li>
+        <li>Thus, the extension \\( x \\) is:
+          \\[
+          x = \\frac{2 \\times 0.04}{3.0}
+          \\]
+          which matches Option A.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Square root not needed):</strong>
+        <p>Taking the square root is unnecessary, as the direct relationship between energy, force, and extension does not involve a square root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong arrangement):</strong>
+        <p>This option incorrectly takes the square root and inverts the relation, which is not consistent with the energy formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Inverse relationship mistake):</strong>
+        <p>This option flips the formula, incorrectly suggesting that force is divided by energy instead of energy divided by force.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember, for springs, the formula \\( E = \\frac{1}{2} F x \\) allows you to solve for the extension \\( x \\) directly without any square roots or inversions.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '3'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> 
+          - When the cyclist is moving on a horizontal road at constant speed, the power output \\( P \\) is constant to overcome resistive forces.<br><br>
+          - When the cyclist starts moving up the hill, additional power is needed to overcome the component of gravitational force along the slope. 
+          Since the speed remains constant, the increase in required power happens immediately as she hits the incline.<br><br>
+          - Thus, the graph should show a sudden jump to a higher constant power value, matching the behavior shown in <strong>Option D</strong>.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Gradual increase from zero):</strong>
+        <p>Shows a power output starting from zero and gradually increasing, which does not match the situation described (constant speed, constant resistive force initially).</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Gradual slope up):</strong>
+        <p>Depicts a gradual rise after constant power, but the transition to uphill work is sudden, not gradual.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Sudden decrease):</strong>
+        <p>Shows a sudden drop in power, which contradicts the fact that more power is needed to climb uphill, not less.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Whenever motion involves climbing a slope while maintaining constant speed, expect an immediate increase in power output due to work against gravity!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '4'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> When a table tennis ball falls, air resistance acts upward, opposing the motion. The student's calculations <strong>ignored air resistance</strong>, assuming only gravitational acceleration \\( g \\).
+          <ul>
+            <li>Because of air resistance, the ball takes <strong>longer to fall</strong> than predicted. So, the actual time \\( t \\) is <strong>greater</strong> than the calculated time.</li>
+            <li>Air resistance reduces the ball's acceleration and limits its final velocity. Therefore, the actual velocity \\( v \\) is <strong>less</strong> than the calculated velocity.</li>
+          </ul>
+        </li>
+        <li>Mathematically, without air resistance, the velocity just before hitting the ground would be:
+          \\[
+          v = \\sqrt{2gh}
+          \\]
+          where \\( g \\) is gravitational acceleration and \\( h \\) is the height dropped.
+        </li>
+        <li>With air resistance, the ball reaches a lower velocity than \\( \\sqrt{2gh} \\) and takes longer to cover the same distance.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Both Less Than Calculated):</strong>
+        <p>This would mean the ball falls faster and slower, which is inconsistent with the effects of air resistance.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Time Less, Velocity Greater):</strong>
+        <p>Air resistance slows objects down, so time cannot be less and velocity cannot be greater.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Both Greater Than Calculated):</strong>
+        <p>Velocity cannot be greater with air resistance acting against the motion.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always consider air resistance when dealing with real-world free-fall problems. It slows objects down compared to idealized (no air resistance) scenarios!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '5'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight \\( W \\) of the bird is supported by the tension in the string, which has vertical and horizontal components. The vertical component of the tension must balance the weight of the bird. Since the string makes an angle of 80° with each vertical post, the vertical component of the tension is given by:
+          \\[
+          T \\cos(80^\\circ)
+          \\]
+          Since there are two equal tension components supporting the bird, the total vertical component is \\( 2 T \\cos(80^\\circ) \\). To balance the bird's weight, we write:
+          \\[
+          2 T \\cos(80^\\circ) = W
+          \\]
+          Solving for \\( T \\), we get:
+          \\[
+          T = \\frac{W}{2 \\cos(80^\\circ)}
+          \\]
+          This matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Sine Instead of Cosine):</strong>
+        <p>This option uses \\( \\sin(80^\\circ) \\), which is incorrect because we are interested in the vertical component of the tension, which involves the cosine of the angle.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly multiplies \\( W \\) by \\( 2 \\sin(80^\\circ) \\), which doesn't represent the correct relationship between the tension and the weight.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Cosine and Wrong Formula):</strong>
+        <p>This option uses \\( 2 \\cos(80^\\circ) \\) incorrectly, where the formula is not balanced correctly to represent the forces acting on the system.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember that when dealing with forces at angles, the vertical component involves the cosine of the angle and the horizontal component involves the sine.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '6'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The stiffness of a spring is represented by the spring constant \\( k \\), which defines the relationship between the force \\( F \\) applied to the spring and its extension \\( x \\). This relationship is given by Hooke's Law:
+          \\[
+          F = k \\times x
+          \\]
+        </li>
+        <li>The graph shows how the length of the spring varies with the applied force. The gradient of the graph represents the ratio of force to extension, which is equal to the spring constant \\( k \\):
+          \\[
+          k = \\frac{F}{x}
+          \\]
+        </li>
+        <li>Therefore, the stiffness of the spring is the gradient of the graph, which matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="calculation">
+      🧮 <strong>Calculation:</strong><br><br>
+      The gradient of the graph is given by the ratio of the applied force \\( F \\) to the extension \\( x \\):
+      \\[
+      k = \\frac{F}{x}
+      \\]
+      This shows the spring's stiffness.
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect:</strong>
+        <p>The area between the graph and the x-axis does not represent the spring constant. It would correspond to the work done to stretch the spring.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect:</strong>
+        <p>The area between the graph and the y-axis is not relevant to the calculation of stiffness.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect:</strong>
+        <p>Taking the inverse of the gradient does not give the stiffness of the spring.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> The spring constant \\( k \\) is a measure of the stiffness of a spring. A steeper gradient on the graph indicates a stiffer spring.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '7'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight of the cube \\( W \\) can be expressed as the product of its volume and the gravitational field strength \\( g \\), which is:
+          \\[
+          W = V \\times p \\times g
+          \\]
+          where \\( p \\) is the density of the material, and \\( V \\) is the volume of the cube. The volume of the cube is given by:
+          \\[
+          V = L^3
+          \\]
+          where \\( L \\) is the length of each side of the cube.
+        </li>
+        <li>Substituting for \\( V \\) in the equation for \\( W \\), we get:
+          \\[
+          W = L^3 \\times p \\times g
+          \\]
+        </li>
+        <li>Rearranging for \\( L \\), we have:
+          \\[
+          L^3 = \\frac{W}{p \\times g}
+          \\]
+        </li>
+        <li>Taking the cube root of both sides gives the length of each side of the cube:
+          \\[
+          L = \\sqrt[3]{\\frac{W}{p \\times g}}
+          \\]
+          This matches Option D: \\( {3}\\sqrt{\\frac{W}{pg}} \\).
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly raises the entire expression to the power of 3 instead of taking the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Square Root instead of Cube Root):</strong>
+        <p>This option incorrectly applies the square root instead of the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong Rearrangement):</strong>
+        <p>This option incorrectly cubes the denominator instead of applying the cube root to the whole expression.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> When solving for the length of a cube from its volume and density, remember to take the cube root of the expression for the volume.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '8'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+  <h3>✅ Why is Option C correct?</h3>
+  <ul>
+    <li><strong>Explanation:</strong> The yield stress is the stress at which a material begins to deform plastically. From the graph, wire P has a higher yield point (first noticeable deviation from linearity) compared to wire Q. Yield stress is found at the initial curve peak, and P clearly reaches a higher stress value earlier.
+      \\[
+      \\text{Yield Stress} \\propto \\text{Stress at Elastic Limit}
+      \\]
+      Since P's elastic limit is higher than Q's, P has a greater yield stress.
+    </li>
+  </ul>
+</div>
+
+<div class="other-options">
+  <div>
+    <strong>❌ Option A – Incorrect (Breaking stress comparison):</strong>
+    <p>Wire Q has a higher final stress before breaking compared to wire P, so P does not have a greater breaking stress.</p>
+  </div>
+  <div>
+    <strong>❌ Option B – Incorrect (Breaking strain comparison):</strong>
+    <p>Wire Q stretches more before breaking, meaning Q has a greater breaking strain than P.</p>
+  </div>
+  <div>
+    <strong>❌ Option D – Incorrect (Young modulus comparison):</strong>
+    <p>Young's modulus is the slope of the initial linear part of the graph. P has a steeper slope than Q initially, indicating P has a higher Young modulus, not lower.</p>
+  </div>
+</div>
+
+<div class="tip-box">
+  💡 <strong>Tip:</strong> Always check the initial slope for Young modulus, the first peak for yield stress, and the final points for breaking stress and strain.
+</div>
+
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '9'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> From the area under the acceleration-time graph, we know that the area represents the change in velocity \\( \\Delta v \\). The velocity-time graph can then be found, and the area under it will give the distance moved by the object. The expression for the distance moved in terms of the area \\( X \\) is given by:
+          \\[
+          \\text{Distance} = \\frac{X t}{2}
+          \\]
+        </li>
+        <li><strong>Explanation of the Formula:</strong> The area under the acceleration-time graph gives the change in velocity \\( \\Delta v \\), and using the relation for distance, the distance moved is proportional to the area under the graph multiplied by time, divided by 2 to account for the uniform acceleration from rest.
+        </li>
+        <li>Thus, the correct expression is \\( \\frac{Xt}{2} \\), which matches Option D.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (No time dependence):</strong>
+        <p>This option fails to consider the time factor when calculating the distance moved.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect formula):</strong>
+        <p>This option divides the area by 2, but does not account for the time variable properly in the distance formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong multiplication with time):</strong>
+        <p>This option multiplies the area by time, but does not divide by 2 as required in the distance formula.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always check that both time and acceleration are correctly accounted for in motion problems involving uniform acceleration from rest.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '10'
+  }
+],
+  WPH12O23 : [
+  {
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> Stress is defined as force per unit area. Mathematically:
+          \\[
+          \\text{Stress} = \\frac{\\text{Force}}{\\text{Area}}
+          \\]
+          The SI unit of force is \\( \\mathrm{N} \\) (newton) and the SI unit of area is \\( \\mathrm{m}^2 \\).
+        </li>
+        <li>Thus, the unit of stress becomes:
+          \\[
+          \\text{Stress Unit} = \\frac{\\mathrm{N}}{\\mathrm{m}^2} = \\mathrm{Nm}^{-2}
+          \\]
+          which matches Option D.
+        </li>
+        <li>Therefore, \\( \\mathrm{Nm}^{-2} \\) is the correct SI unit for stress.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Units):</strong>
+        <p>\\( \\mathrm{kgm}^{-2} \\) represents mass per unit area, not stress.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect Dimensional Formula):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{kg}^{-2} \\) does not correspond to any standard physical quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Inverted Units):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{N}^{-1} \\) suggests area per unit force, which is not stress.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember: Stress, Pressure, and Energy Density all share the same unit \\( \\mathrm{Nm}^{-2} \\) or \\( \\mathrm{Pa} \\) (Pascal) in SI units.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '1'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> A vector quantity has both magnitude and direction. Let’s check each term in Option A:
+          <ul>
+            <li><strong>Acceleration:</strong> It is a vector quantity because it has both magnitude and direction.</li>
+            <li><strong>Momentum:</strong> It is also a vector quantity defined by \\( \\vec{p} = m \\vec{v} \\), where \\( m \\) is mass and \\( \\vec{v} \\) is velocity.</li>
+            <li><strong>Weight:</strong> Weight is the force due to gravity and acts towards the center of the Earth. It is a vector quantity given by:
+              \\[
+              \\vec{W} = m \\vec{g}
+              \\]
+            </li>
+          </ul>
+          Since all three are vector quantities, Option A is correct.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Only Scalars):</strong>
+        <p>Density, time, and work done are all scalar quantities — they only have magnitude, no direction.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Mixed Quantities):</strong>
+        <p>Displacement and velocity are vectors, but mass is a scalar quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Mixed Quantities):</strong>
+        <p>Force is a vector quantity, but kinetic energy and temperature are scalars.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember: Scalars have only magnitude, while vectors have both magnitude and direction. Examples of vectors include force, velocity, acceleration, and displacement.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '2'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The elastic strain energy \\( E \\) stored in a spring is related to the force \\( F \\) and the extension \\( x \\) by:
+          \\[
+          E = \\frac{1}{2} F x
+          \\]
+        </li>
+        <li>Rearranging the formula to find \\( x \\):
+          \\[
+          x = \\frac{2E}{F}
+          \\]
+        </li>
+        <li>Substituting the given values:
+          <ul>
+            <li>Force \\( F = 3.0\\,\\mathrm{N} \\)</li>
+            <li>Elastic strain energy \\( E = 0.04\\,\\mathrm{J} \\)</li>
+          </ul>
+        </li>
+        <li>Thus, the extension \\( x \\) is:
+          \\[
+          x = \\frac{2 \\times 0.04}{3.0}
+          \\]
+          which matches Option A.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Square root not needed):</strong>
+        <p>Taking the square root is unnecessary, as the direct relationship between energy, force, and extension does not involve a square root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong arrangement):</strong>
+        <p>This option incorrectly takes the square root and inverts the relation, which is not consistent with the energy formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Inverse relationship mistake):</strong>
+        <p>This option flips the formula, incorrectly suggesting that force is divided by energy instead of energy divided by force.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember, for springs, the formula \\( E = \\frac{1}{2} F x \\) allows you to solve for the extension \\( x \\) directly without any square roots or inversions.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '3'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> 
+          - When the cyclist is moving on a horizontal road at constant speed, the power output \\( P \\) is constant to overcome resistive forces.<br><br>
+          - When the cyclist starts moving up the hill, additional power is needed to overcome the component of gravitational force along the slope. 
+          Since the speed remains constant, the increase in required power happens immediately as she hits the incline.<br><br>
+          - Thus, the graph should show a sudden jump to a higher constant power value, matching the behavior shown in <strong>Option D</strong>.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Gradual increase from zero):</strong>
+        <p>Shows a power output starting from zero and gradually increasing, which does not match the situation described (constant speed, constant resistive force initially).</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Gradual slope up):</strong>
+        <p>Depicts a gradual rise after constant power, but the transition to uphill work is sudden, not gradual.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Sudden decrease):</strong>
+        <p>Shows a sudden drop in power, which contradicts the fact that more power is needed to climb uphill, not less.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Whenever motion involves climbing a slope while maintaining constant speed, expect an immediate increase in power output due to work against gravity!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '4'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> When a table tennis ball falls, air resistance acts upward, opposing the motion. The student's calculations <strong>ignored air resistance</strong>, assuming only gravitational acceleration \\( g \\).
+          <ul>
+            <li>Because of air resistance, the ball takes <strong>longer to fall</strong> than predicted. So, the actual time \\( t \\) is <strong>greater</strong> than the calculated time.</li>
+            <li>Air resistance reduces the ball's acceleration and limits its final velocity. Therefore, the actual velocity \\( v \\) is <strong>less</strong> than the calculated velocity.</li>
+          </ul>
+        </li>
+        <li>Mathematically, without air resistance, the velocity just before hitting the ground would be:
+          \\[
+          v = \\sqrt{2gh}
+          \\]
+          where \\( g \\) is gravitational acceleration and \\( h \\) is the height dropped.
+        </li>
+        <li>With air resistance, the ball reaches a lower velocity than \\( \\sqrt{2gh} \\) and takes longer to cover the same distance.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Both Less Than Calculated):</strong>
+        <p>This would mean the ball falls faster and slower, which is inconsistent with the effects of air resistance.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Time Less, Velocity Greater):</strong>
+        <p>Air resistance slows objects down, so time cannot be less and velocity cannot be greater.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Both Greater Than Calculated):</strong>
+        <p>Velocity cannot be greater with air resistance acting against the motion.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always consider air resistance when dealing with real-world free-fall problems. It slows objects down compared to idealized (no air resistance) scenarios!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '5'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight \\( W \\) of the bird is supported by the tension in the string, which has vertical and horizontal components. The vertical component of the tension must balance the weight of the bird. Since the string makes an angle of 80° with each vertical post, the vertical component of the tension is given by:
+          \\[
+          T \\cos(80^\\circ)
+          \\]
+          Since there are two equal tension components supporting the bird, the total vertical component is \\( 2 T \\cos(80^\\circ) \\). To balance the bird's weight, we write:
+          \\[
+          2 T \\cos(80^\\circ) = W
+          \\]
+          Solving for \\( T \\), we get:
+          \\[
+          T = \\frac{W}{2 \\cos(80^\\circ)}
+          \\]
+          This matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Sine Instead of Cosine):</strong>
+        <p>This option uses \\( \\sin(80^\\circ) \\), which is incorrect because we are interested in the vertical component of the tension, which involves the cosine of the angle.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly multiplies \\( W \\) by \\( 2 \\sin(80^\\circ) \\), which doesn't represent the correct relationship between the tension and the weight.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Cosine and Wrong Formula):</strong>
+        <p>This option uses \\( 2 \\cos(80^\\circ) \\) incorrectly, where the formula is not balanced correctly to represent the forces acting on the system.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember that when dealing with forces at angles, the vertical component involves the cosine of the angle and the horizontal component involves the sine.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '6'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The stiffness of a spring is represented by the spring constant \\( k \\), which defines the relationship between the force \\( F \\) applied to the spring and its extension \\( x \\). This relationship is given by Hooke's Law:
+          \\[
+          F = k \\times x
+          \\]
+        </li>
+        <li>The graph shows how the length of the spring varies with the applied force. The gradient of the graph represents the ratio of force to extension, which is equal to the spring constant \\( k \\):
+          \\[
+          k = \\frac{F}{x}
+          \\]
+        </li>
+        <li>Therefore, the stiffness of the spring is the gradient of the graph, which matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="calculation">
+      🧮 <strong>Calculation:</strong><br><br>
+      The gradient of the graph is given by the ratio of the applied force \\( F \\) to the extension \\( x \\):
+      \\[
+      k = \\frac{F}{x}
+      \\]
+      This shows the spring's stiffness.
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect:</strong>
+        <p>The area between the graph and the x-axis does not represent the spring constant. It would correspond to the work done to stretch the spring.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect:</strong>
+        <p>The area between the graph and the y-axis is not relevant to the calculation of stiffness.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect:</strong>
+        <p>Taking the inverse of the gradient does not give the stiffness of the spring.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> The spring constant \\( k \\) is a measure of the stiffness of a spring. A steeper gradient on the graph indicates a stiffer spring.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '7'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight of the cube \\( W \\) can be expressed as the product of its volume and the gravitational field strength \\( g \\), which is:
+          \\[
+          W = V \\times p \\times g
+          \\]
+          where \\( p \\) is the density of the material, and \\( V \\) is the volume of the cube. The volume of the cube is given by:
+          \\[
+          V = L^3
+          \\]
+          where \\( L \\) is the length of each side of the cube.
+        </li>
+        <li>Substituting for \\( V \\) in the equation for \\( W \\), we get:
+          \\[
+          W = L^3 \\times p \\times g
+          \\]
+        </li>
+        <li>Rearranging for \\( L \\), we have:
+          \\[
+          L^3 = \\frac{W}{p \\times g}
+          \\]
+        </li>
+        <li>Taking the cube root of both sides gives the length of each side of the cube:
+          \\[
+          L = \\sqrt[3]{\\frac{W}{p \\times g}}
+          \\]
+          This matches Option D: \\( {3}\\sqrt{\\frac{W}{pg}} \\).
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly raises the entire expression to the power of 3 instead of taking the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Square Root instead of Cube Root):</strong>
+        <p>This option incorrectly applies the square root instead of the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong Rearrangement):</strong>
+        <p>This option incorrectly cubes the denominator instead of applying the cube root to the whole expression.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> When solving for the length of a cube from its volume and density, remember to take the cube root of the expression for the volume.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '8'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+  <h3>✅ Why is Option C correct?</h3>
+  <ul>
+    <li><strong>Explanation:</strong> The yield stress is the stress at which a material begins to deform plastically. From the graph, wire P has a higher yield point (first noticeable deviation from linearity) compared to wire Q. Yield stress is found at the initial curve peak, and P clearly reaches a higher stress value earlier.
+      \\[
+      \\text{Yield Stress} \\propto \\text{Stress at Elastic Limit}
+      \\]
+      Since P's elastic limit is higher than Q's, P has a greater yield stress.
+    </li>
+  </ul>
+</div>
+
+<div class="other-options">
+  <div>
+    <strong>❌ Option A – Incorrect (Breaking stress comparison):</strong>
+    <p>Wire Q has a higher final stress before breaking compared to wire P, so P does not have a greater breaking stress.</p>
+  </div>
+  <div>
+    <strong>❌ Option B – Incorrect (Breaking strain comparison):</strong>
+    <p>Wire Q stretches more before breaking, meaning Q has a greater breaking strain than P.</p>
+  </div>
+  <div>
+    <strong>❌ Option D – Incorrect (Young modulus comparison):</strong>
+    <p>Young's modulus is the slope of the initial linear part of the graph. P has a steeper slope than Q initially, indicating P has a higher Young modulus, not lower.</p>
+  </div>
+</div>
+
+<div class="tip-box">
+  💡 <strong>Tip:</strong> Always check the initial slope for Young modulus, the first peak for yield stress, and the final points for breaking stress and strain.
+</div>
+
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '9'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> From the area under the acceleration-time graph, we know that the area represents the change in velocity \\( \\Delta v \\). The velocity-time graph can then be found, and the area under it will give the distance moved by the object. The expression for the distance moved in terms of the area \\( X \\) is given by:
+          \\[
+          \\text{Distance} = \\frac{X t}{2}
+          \\]
+        </li>
+        <li><strong>Explanation of the Formula:</strong> The area under the acceleration-time graph gives the change in velocity \\( \\Delta v \\), and using the relation for distance, the distance moved is proportional to the area under the graph multiplied by time, divided by 2 to account for the uniform acceleration from rest.
+        </li>
+        <li>Thus, the correct expression is \\( \\frac{Xt}{2} \\), which matches Option D.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (No time dependence):</strong>
+        <p>This option fails to consider the time factor when calculating the distance moved.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect formula):</strong>
+        <p>This option divides the area by 2, but does not account for the time variable properly in the distance formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong multiplication with time):</strong>
+        <p>This option multiplies the area by time, but does not divide by 2 as required in the distance formula.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always check that both time and acceleration are correctly accounted for in motion problems involving uniform acceleration from rest.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '10'
+  }
+],
+  WPH12J23 : [
+  {
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> Stress is defined as force per unit area. Mathematically:
+          \\[
+          \\text{Stress} = \\frac{\\text{Force}}{\\text{Area}}
+          \\]
+          The SI unit of force is \\( \\mathrm{N} \\) (newton) and the SI unit of area is \\( \\mathrm{m}^2 \\).
+        </li>
+        <li>Thus, the unit of stress becomes:
+          \\[
+          \\text{Stress Unit} = \\frac{\\mathrm{N}}{\\mathrm{m}^2} = \\mathrm{Nm}^{-2}
+          \\]
+          which matches Option D.
+        </li>
+        <li>Therefore, \\( \\mathrm{Nm}^{-2} \\) is the correct SI unit for stress.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Units):</strong>
+        <p>\\( \\mathrm{kgm}^{-2} \\) represents mass per unit area, not stress.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect Dimensional Formula):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{kg}^{-2} \\) does not correspond to any standard physical quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Inverted Units):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{N}^{-1} \\) suggests area per unit force, which is not stress.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember: Stress, Pressure, and Energy Density all share the same unit \\( \\mathrm{Nm}^{-2} \\) or \\( \\mathrm{Pa} \\) (Pascal) in SI units.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '1'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> A vector quantity has both magnitude and direction. Let’s check each term in Option A:
+          <ul>
+            <li><strong>Acceleration:</strong> It is a vector quantity because it has both magnitude and direction.</li>
+            <li><strong>Momentum:</strong> It is also a vector quantity defined by \\( \\vec{p} = m \\vec{v} \\), where \\( m \\) is mass and \\( \\vec{v} \\) is velocity.</li>
+            <li><strong>Weight:</strong> Weight is the force due to gravity and acts towards the center of the Earth. It is a vector quantity given by:
+              \\[
+              \\vec{W} = m \\vec{g}
+              \\]
+            </li>
+          </ul>
+          Since all three are vector quantities, Option A is correct.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Only Scalars):</strong>
+        <p>Density, time, and work done are all scalar quantities — they only have magnitude, no direction.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Mixed Quantities):</strong>
+        <p>Displacement and velocity are vectors, but mass is a scalar quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Mixed Quantities):</strong>
+        <p>Force is a vector quantity, but kinetic energy and temperature are scalars.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember: Scalars have only magnitude, while vectors have both magnitude and direction. Examples of vectors include force, velocity, acceleration, and displacement.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '2'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The elastic strain energy \\( E \\) stored in a spring is related to the force \\( F \\) and the extension \\( x \\) by:
+          \\[
+          E = \\frac{1}{2} F x
+          \\]
+        </li>
+        <li>Rearranging the formula to find \\( x \\):
+          \\[
+          x = \\frac{2E}{F}
+          \\]
+        </li>
+        <li>Substituting the given values:
+          <ul>
+            <li>Force \\( F = 3.0\\,\\mathrm{N} \\)</li>
+            <li>Elastic strain energy \\( E = 0.04\\,\\mathrm{J} \\)</li>
+          </ul>
+        </li>
+        <li>Thus, the extension \\( x \\) is:
+          \\[
+          x = \\frac{2 \\times 0.04}{3.0}
+          \\]
+          which matches Option A.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Square root not needed):</strong>
+        <p>Taking the square root is unnecessary, as the direct relationship between energy, force, and extension does not involve a square root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong arrangement):</strong>
+        <p>This option incorrectly takes the square root and inverts the relation, which is not consistent with the energy formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Inverse relationship mistake):</strong>
+        <p>This option flips the formula, incorrectly suggesting that force is divided by energy instead of energy divided by force.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember, for springs, the formula \\( E = \\frac{1}{2} F x \\) allows you to solve for the extension \\( x \\) directly without any square roots or inversions.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '3'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> 
+          - When the cyclist is moving on a horizontal road at constant speed, the power output \\( P \\) is constant to overcome resistive forces.<br><br>
+          - When the cyclist starts moving up the hill, additional power is needed to overcome the component of gravitational force along the slope. 
+          Since the speed remains constant, the increase in required power happens immediately as she hits the incline.<br><br>
+          - Thus, the graph should show a sudden jump to a higher constant power value, matching the behavior shown in <strong>Option D</strong>.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Gradual increase from zero):</strong>
+        <p>Shows a power output starting from zero and gradually increasing, which does not match the situation described (constant speed, constant resistive force initially).</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Gradual slope up):</strong>
+        <p>Depicts a gradual rise after constant power, but the transition to uphill work is sudden, not gradual.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Sudden decrease):</strong>
+        <p>Shows a sudden drop in power, which contradicts the fact that more power is needed to climb uphill, not less.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Whenever motion involves climbing a slope while maintaining constant speed, expect an immediate increase in power output due to work against gravity!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '4'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> When a table tennis ball falls, air resistance acts upward, opposing the motion. The student's calculations <strong>ignored air resistance</strong>, assuming only gravitational acceleration \\( g \\).
+          <ul>
+            <li>Because of air resistance, the ball takes <strong>longer to fall</strong> than predicted. So, the actual time \\( t \\) is <strong>greater</strong> than the calculated time.</li>
+            <li>Air resistance reduces the ball's acceleration and limits its final velocity. Therefore, the actual velocity \\( v \\) is <strong>less</strong> than the calculated velocity.</li>
+          </ul>
+        </li>
+        <li>Mathematically, without air resistance, the velocity just before hitting the ground would be:
+          \\[
+          v = \\sqrt{2gh}
+          \\]
+          where \\( g \\) is gravitational acceleration and \\( h \\) is the height dropped.
+        </li>
+        <li>With air resistance, the ball reaches a lower velocity than \\( \\sqrt{2gh} \\) and takes longer to cover the same distance.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Both Less Than Calculated):</strong>
+        <p>This would mean the ball falls faster and slower, which is inconsistent with the effects of air resistance.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Time Less, Velocity Greater):</strong>
+        <p>Air resistance slows objects down, so time cannot be less and velocity cannot be greater.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Both Greater Than Calculated):</strong>
+        <p>Velocity cannot be greater with air resistance acting against the motion.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always consider air resistance when dealing with real-world free-fall problems. It slows objects down compared to idealized (no air resistance) scenarios!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '5'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight \\( W \\) of the bird is supported by the tension in the string, which has vertical and horizontal components. The vertical component of the tension must balance the weight of the bird. Since the string makes an angle of 80° with each vertical post, the vertical component of the tension is given by:
+          \\[
+          T \\cos(80^\\circ)
+          \\]
+          Since there are two equal tension components supporting the bird, the total vertical component is \\( 2 T \\cos(80^\\circ) \\). To balance the bird's weight, we write:
+          \\[
+          2 T \\cos(80^\\circ) = W
+          \\]
+          Solving for \\( T \\), we get:
+          \\[
+          T = \\frac{W}{2 \\cos(80^\\circ)}
+          \\]
+          This matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Sine Instead of Cosine):</strong>
+        <p>This option uses \\( \\sin(80^\\circ) \\), which is incorrect because we are interested in the vertical component of the tension, which involves the cosine of the angle.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly multiplies \\( W \\) by \\( 2 \\sin(80^\\circ) \\), which doesn't represent the correct relationship between the tension and the weight.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Cosine and Wrong Formula):</strong>
+        <p>This option uses \\( 2 \\cos(80^\\circ) \\) incorrectly, where the formula is not balanced correctly to represent the forces acting on the system.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember that when dealing with forces at angles, the vertical component involves the cosine of the angle and the horizontal component involves the sine.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '6'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The stiffness of a spring is represented by the spring constant \\( k \\), which defines the relationship between the force \\( F \\) applied to the spring and its extension \\( x \\). This relationship is given by Hooke's Law:
+          \\[
+          F = k \\times x
+          \\]
+        </li>
+        <li>The graph shows how the length of the spring varies with the applied force. The gradient of the graph represents the ratio of force to extension, which is equal to the spring constant \\( k \\):
+          \\[
+          k = \\frac{F}{x}
+          \\]
+        </li>
+        <li>Therefore, the stiffness of the spring is the gradient of the graph, which matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="calculation">
+      🧮 <strong>Calculation:</strong><br><br>
+      The gradient of the graph is given by the ratio of the applied force \\( F \\) to the extension \\( x \\):
+      \\[
+      k = \\frac{F}{x}
+      \\]
+      This shows the spring's stiffness.
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect:</strong>
+        <p>The area between the graph and the x-axis does not represent the spring constant. It would correspond to the work done to stretch the spring.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect:</strong>
+        <p>The area between the graph and the y-axis is not relevant to the calculation of stiffness.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect:</strong>
+        <p>Taking the inverse of the gradient does not give the stiffness of the spring.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> The spring constant \\( k \\) is a measure of the stiffness of a spring. A steeper gradient on the graph indicates a stiffer spring.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '7'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight of the cube \\( W \\) can be expressed as the product of its volume and the gravitational field strength \\( g \\), which is:
+          \\[
+          W = V \\times p \\times g
+          \\]
+          where \\( p \\) is the density of the material, and \\( V \\) is the volume of the cube. The volume of the cube is given by:
+          \\[
+          V = L^3
+          \\]
+          where \\( L \\) is the length of each side of the cube.
+        </li>
+        <li>Substituting for \\( V \\) in the equation for \\( W \\), we get:
+          \\[
+          W = L^3 \\times p \\times g
+          \\]
+        </li>
+        <li>Rearranging for \\( L \\), we have:
+          \\[
+          L^3 = \\frac{W}{p \\times g}
+          \\]
+        </li>
+        <li>Taking the cube root of both sides gives the length of each side of the cube:
+          \\[
+          L = \\sqrt[3]{\\frac{W}{p \\times g}}
+          \\]
+          This matches Option D: \\( {3}\\sqrt{\\frac{W}{pg}} \\).
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly raises the entire expression to the power of 3 instead of taking the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Square Root instead of Cube Root):</strong>
+        <p>This option incorrectly applies the square root instead of the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong Rearrangement):</strong>
+        <p>This option incorrectly cubes the denominator instead of applying the cube root to the whole expression.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> When solving for the length of a cube from its volume and density, remember to take the cube root of the expression for the volume.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '8'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+  <h3>✅ Why is Option C correct?</h3>
+  <ul>
+    <li><strong>Explanation:</strong> The yield stress is the stress at which a material begins to deform plastically. From the graph, wire P has a higher yield point (first noticeable deviation from linearity) compared to wire Q. Yield stress is found at the initial curve peak, and P clearly reaches a higher stress value earlier.
+      \\[
+      \\text{Yield Stress} \\propto \\text{Stress at Elastic Limit}
+      \\]
+      Since P's elastic limit is higher than Q's, P has a greater yield stress.
+    </li>
+  </ul>
+</div>
+
+<div class="other-options">
+  <div>
+    <strong>❌ Option A – Incorrect (Breaking stress comparison):</strong>
+    <p>Wire Q has a higher final stress before breaking compared to wire P, so P does not have a greater breaking stress.</p>
+  </div>
+  <div>
+    <strong>❌ Option B – Incorrect (Breaking strain comparison):</strong>
+    <p>Wire Q stretches more before breaking, meaning Q has a greater breaking strain than P.</p>
+  </div>
+  <div>
+    <strong>❌ Option D – Incorrect (Young modulus comparison):</strong>
+    <p>Young's modulus is the slope of the initial linear part of the graph. P has a steeper slope than Q initially, indicating P has a higher Young modulus, not lower.</p>
+  </div>
+</div>
+
+<div class="tip-box">
+  💡 <strong>Tip:</strong> Always check the initial slope for Young modulus, the first peak for yield stress, and the final points for breaking stress and strain.
+</div>
+
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '9'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> From the area under the acceleration-time graph, we know that the area represents the change in velocity \\( \\Delta v \\). The velocity-time graph can then be found, and the area under it will give the distance moved by the object. The expression for the distance moved in terms of the area \\( X \\) is given by:
+          \\[
+          \\text{Distance} = \\frac{X t}{2}
+          \\]
+        </li>
+        <li><strong>Explanation of the Formula:</strong> The area under the acceleration-time graph gives the change in velocity \\( \\Delta v \\), and using the relation for distance, the distance moved is proportional to the area under the graph multiplied by time, divided by 2 to account for the uniform acceleration from rest.
+        </li>
+        <li>Thus, the correct expression is \\( \\frac{Xt}{2} \\), which matches Option D.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (No time dependence):</strong>
+        <p>This option fails to consider the time factor when calculating the distance moved.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect formula):</strong>
+        <p>This option divides the area by 2, but does not account for the time variable properly in the distance formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong multiplication with time):</strong>
+        <p>This option multiplies the area by time, but does not divide by 2 as required in the distance formula.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always check that both time and acceleration are correctly accounted for in motion problems involving uniform acceleration from rest.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '10'
+  }
+],
+  WPH12F23 : [
+  {
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> Stress is defined as force per unit area. Mathematically:
+          \\[
+          \\text{Stress} = \\frac{\\text{Force}}{\\text{Area}}
+          \\]
+          The SI unit of force is \\( \\mathrm{N} \\) (newton) and the SI unit of area is \\( \\mathrm{m}^2 \\).
+        </li>
+        <li>Thus, the unit of stress becomes:
+          \\[
+          \\text{Stress Unit} = \\frac{\\mathrm{N}}{\\mathrm{m}^2} = \\mathrm{Nm}^{-2}
+          \\]
+          which matches Option D.
+        </li>
+        <li>Therefore, \\( \\mathrm{Nm}^{-2} \\) is the correct SI unit for stress.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Units):</strong>
+        <p>\\( \\mathrm{kgm}^{-2} \\) represents mass per unit area, not stress.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect Dimensional Formula):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{kg}^{-2} \\) does not correspond to any standard physical quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Inverted Units):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{N}^{-1} \\) suggests area per unit force, which is not stress.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember: Stress, Pressure, and Energy Density all share the same unit \\( \\mathrm{Nm}^{-2} \\) or \\( \\mathrm{Pa} \\) (Pascal) in SI units.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '1'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> A vector quantity has both magnitude and direction. Let’s check each term in Option A:
+          <ul>
+            <li><strong>Acceleration:</strong> It is a vector quantity because it has both magnitude and direction.</li>
+            <li><strong>Momentum:</strong> It is also a vector quantity defined by \\( \\vec{p} = m \\vec{v} \\), where \\( m \\) is mass and \\( \\vec{v} \\) is velocity.</li>
+            <li><strong>Weight:</strong> Weight is the force due to gravity and acts towards the center of the Earth. It is a vector quantity given by:
+              \\[
+              \\vec{W} = m \\vec{g}
+              \\]
+            </li>
+          </ul>
+          Since all three are vector quantities, Option A is correct.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Only Scalars):</strong>
+        <p>Density, time, and work done are all scalar quantities — they only have magnitude, no direction.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Mixed Quantities):</strong>
+        <p>Displacement and velocity are vectors, but mass is a scalar quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Mixed Quantities):</strong>
+        <p>Force is a vector quantity, but kinetic energy and temperature are scalars.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember: Scalars have only magnitude, while vectors have both magnitude and direction. Examples of vectors include force, velocity, acceleration, and displacement.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '2'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The elastic strain energy \\( E \\) stored in a spring is related to the force \\( F \\) and the extension \\( x \\) by:
+          \\[
+          E = \\frac{1}{2} F x
+          \\]
+        </li>
+        <li>Rearranging the formula to find \\( x \\):
+          \\[
+          x = \\frac{2E}{F}
+          \\]
+        </li>
+        <li>Substituting the given values:
+          <ul>
+            <li>Force \\( F = 3.0\\,\\mathrm{N} \\)</li>
+            <li>Elastic strain energy \\( E = 0.04\\,\\mathrm{J} \\)</li>
+          </ul>
+        </li>
+        <li>Thus, the extension \\( x \\) is:
+          \\[
+          x = \\frac{2 \\times 0.04}{3.0}
+          \\]
+          which matches Option A.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Square root not needed):</strong>
+        <p>Taking the square root is unnecessary, as the direct relationship between energy, force, and extension does not involve a square root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong arrangement):</strong>
+        <p>This option incorrectly takes the square root and inverts the relation, which is not consistent with the energy formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Inverse relationship mistake):</strong>
+        <p>This option flips the formula, incorrectly suggesting that force is divided by energy instead of energy divided by force.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember, for springs, the formula \\( E = \\frac{1}{2} F x \\) allows you to solve for the extension \\( x \\) directly without any square roots or inversions.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '3'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> 
+          - When the cyclist is moving on a horizontal road at constant speed, the power output \\( P \\) is constant to overcome resistive forces.<br><br>
+          - When the cyclist starts moving up the hill, additional power is needed to overcome the component of gravitational force along the slope. 
+          Since the speed remains constant, the increase in required power happens immediately as she hits the incline.<br><br>
+          - Thus, the graph should show a sudden jump to a higher constant power value, matching the behavior shown in <strong>Option D</strong>.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Gradual increase from zero):</strong>
+        <p>Shows a power output starting from zero and gradually increasing, which does not match the situation described (constant speed, constant resistive force initially).</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Gradual slope up):</strong>
+        <p>Depicts a gradual rise after constant power, but the transition to uphill work is sudden, not gradual.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Sudden decrease):</strong>
+        <p>Shows a sudden drop in power, which contradicts the fact that more power is needed to climb uphill, not less.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Whenever motion involves climbing a slope while maintaining constant speed, expect an immediate increase in power output due to work against gravity!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '4'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> When a table tennis ball falls, air resistance acts upward, opposing the motion. The student's calculations <strong>ignored air resistance</strong>, assuming only gravitational acceleration \\( g \\).
+          <ul>
+            <li>Because of air resistance, the ball takes <strong>longer to fall</strong> than predicted. So, the actual time \\( t \\) is <strong>greater</strong> than the calculated time.</li>
+            <li>Air resistance reduces the ball's acceleration and limits its final velocity. Therefore, the actual velocity \\( v \\) is <strong>less</strong> than the calculated velocity.</li>
+          </ul>
+        </li>
+        <li>Mathematically, without air resistance, the velocity just before hitting the ground would be:
+          \\[
+          v = \\sqrt{2gh}
+          \\]
+          where \\( g \\) is gravitational acceleration and \\( h \\) is the height dropped.
+        </li>
+        <li>With air resistance, the ball reaches a lower velocity than \\( \\sqrt{2gh} \\) and takes longer to cover the same distance.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Both Less Than Calculated):</strong>
+        <p>This would mean the ball falls faster and slower, which is inconsistent with the effects of air resistance.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Time Less, Velocity Greater):</strong>
+        <p>Air resistance slows objects down, so time cannot be less and velocity cannot be greater.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Both Greater Than Calculated):</strong>
+        <p>Velocity cannot be greater with air resistance acting against the motion.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always consider air resistance when dealing with real-world free-fall problems. It slows objects down compared to idealized (no air resistance) scenarios!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '5'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight \\( W \\) of the bird is supported by the tension in the string, which has vertical and horizontal components. The vertical component of the tension must balance the weight of the bird. Since the string makes an angle of 80° with each vertical post, the vertical component of the tension is given by:
+          \\[
+          T \\cos(80^\\circ)
+          \\]
+          Since there are two equal tension components supporting the bird, the total vertical component is \\( 2 T \\cos(80^\\circ) \\). To balance the bird's weight, we write:
+          \\[
+          2 T \\cos(80^\\circ) = W
+          \\]
+          Solving for \\( T \\), we get:
+          \\[
+          T = \\frac{W}{2 \\cos(80^\\circ)}
+          \\]
+          This matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Sine Instead of Cosine):</strong>
+        <p>This option uses \\( \\sin(80^\\circ) \\), which is incorrect because we are interested in the vertical component of the tension, which involves the cosine of the angle.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly multiplies \\( W \\) by \\( 2 \\sin(80^\\circ) \\), which doesn't represent the correct relationship between the tension and the weight.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Cosine and Wrong Formula):</strong>
+        <p>This option uses \\( 2 \\cos(80^\\circ) \\) incorrectly, where the formula is not balanced correctly to represent the forces acting on the system.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember that when dealing with forces at angles, the vertical component involves the cosine of the angle and the horizontal component involves the sine.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '6'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The stiffness of a spring is represented by the spring constant \\( k \\), which defines the relationship between the force \\( F \\) applied to the spring and its extension \\( x \\). This relationship is given by Hooke's Law:
+          \\[
+          F = k \\times x
+          \\]
+        </li>
+        <li>The graph shows how the length of the spring varies with the applied force. The gradient of the graph represents the ratio of force to extension, which is equal to the spring constant \\( k \\):
+          \\[
+          k = \\frac{F}{x}
+          \\]
+        </li>
+        <li>Therefore, the stiffness of the spring is the gradient of the graph, which matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="calculation">
+      🧮 <strong>Calculation:</strong><br><br>
+      The gradient of the graph is given by the ratio of the applied force \\( F \\) to the extension \\( x \\):
+      \\[
+      k = \\frac{F}{x}
+      \\]
+      This shows the spring's stiffness.
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect:</strong>
+        <p>The area between the graph and the x-axis does not represent the spring constant. It would correspond to the work done to stretch the spring.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect:</strong>
+        <p>The area between the graph and the y-axis is not relevant to the calculation of stiffness.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect:</strong>
+        <p>Taking the inverse of the gradient does not give the stiffness of the spring.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> The spring constant \\( k \\) is a measure of the stiffness of a spring. A steeper gradient on the graph indicates a stiffer spring.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '7'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight of the cube \\( W \\) can be expressed as the product of its volume and the gravitational field strength \\( g \\), which is:
+          \\[
+          W = V \\times p \\times g
+          \\]
+          where \\( p \\) is the density of the material, and \\( V \\) is the volume of the cube. The volume of the cube is given by:
+          \\[
+          V = L^3
+          \\]
+          where \\( L \\) is the length of each side of the cube.
+        </li>
+        <li>Substituting for \\( V \\) in the equation for \\( W \\), we get:
+          \\[
+          W = L^3 \\times p \\times g
+          \\]
+        </li>
+        <li>Rearranging for \\( L \\), we have:
+          \\[
+          L^3 = \\frac{W}{p \\times g}
+          \\]
+        </li>
+        <li>Taking the cube root of both sides gives the length of each side of the cube:
+          \\[
+          L = \\sqrt[3]{\\frac{W}{p \\times g}}
+          \\]
+          This matches Option D: \\( {3}\\sqrt{\\frac{W}{pg}} \\).
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly raises the entire expression to the power of 3 instead of taking the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Square Root instead of Cube Root):</strong>
+        <p>This option incorrectly applies the square root instead of the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong Rearrangement):</strong>
+        <p>This option incorrectly cubes the denominator instead of applying the cube root to the whole expression.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> When solving for the length of a cube from its volume and density, remember to take the cube root of the expression for the volume.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '8'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+  <h3>✅ Why is Option C correct?</h3>
+  <ul>
+    <li><strong>Explanation:</strong> The yield stress is the stress at which a material begins to deform plastically. From the graph, wire P has a higher yield point (first noticeable deviation from linearity) compared to wire Q. Yield stress is found at the initial curve peak, and P clearly reaches a higher stress value earlier.
+      \\[
+      \\text{Yield Stress} \\propto \\text{Stress at Elastic Limit}
+      \\]
+      Since P's elastic limit is higher than Q's, P has a greater yield stress.
+    </li>
+  </ul>
+</div>
+
+<div class="other-options">
+  <div>
+    <strong>❌ Option A – Incorrect (Breaking stress comparison):</strong>
+    <p>Wire Q has a higher final stress before breaking compared to wire P, so P does not have a greater breaking stress.</p>
+  </div>
+  <div>
+    <strong>❌ Option B – Incorrect (Breaking strain comparison):</strong>
+    <p>Wire Q stretches more before breaking, meaning Q has a greater breaking strain than P.</p>
+  </div>
+  <div>
+    <strong>❌ Option D – Incorrect (Young modulus comparison):</strong>
+    <p>Young's modulus is the slope of the initial linear part of the graph. P has a steeper slope than Q initially, indicating P has a higher Young modulus, not lower.</p>
+  </div>
+</div>
+
+<div class="tip-box">
+  💡 <strong>Tip:</strong> Always check the initial slope for Young modulus, the first peak for yield stress, and the final points for breaking stress and strain.
+</div>
+
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '9'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> From the area under the acceleration-time graph, we know that the area represents the change in velocity \\( \\Delta v \\). The velocity-time graph can then be found, and the area under it will give the distance moved by the object. The expression for the distance moved in terms of the area \\( X \\) is given by:
+          \\[
+          \\text{Distance} = \\frac{X t}{2}
+          \\]
+        </li>
+        <li><strong>Explanation of the Formula:</strong> The area under the acceleration-time graph gives the change in velocity \\( \\Delta v \\), and using the relation for distance, the distance moved is proportional to the area under the graph multiplied by time, divided by 2 to account for the uniform acceleration from rest.
+        </li>
+        <li>Thus, the correct expression is \\( \\frac{Xt}{2} \\), which matches Option D.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (No time dependence):</strong>
+        <p>This option fails to consider the time factor when calculating the distance moved.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect formula):</strong>
+        <p>This option divides the area by 2, but does not account for the time variable properly in the distance formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong multiplication with time):</strong>
+        <p>This option multiplies the area by time, but does not divide by 2 as required in the distance formula.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always check that both time and acceleration are correctly accounted for in motion problems involving uniform acceleration from rest.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '10'
+  }
+],
+  WPH12O22 : [
+  {
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> Stress is defined as force per unit area. Mathematically:
+          \\[
+          \\text{Stress} = \\frac{\\text{Force}}{\\text{Area}}
+          \\]
+          The SI unit of force is \\( \\mathrm{N} \\) (newton) and the SI unit of area is \\( \\mathrm{m}^2 \\).
+        </li>
+        <li>Thus, the unit of stress becomes:
+          \\[
+          \\text{Stress Unit} = \\frac{\\mathrm{N}}{\\mathrm{m}^2} = \\mathrm{Nm}^{-2}
+          \\]
+          which matches Option D.
+        </li>
+        <li>Therefore, \\( \\mathrm{Nm}^{-2} \\) is the correct SI unit for stress.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Units):</strong>
+        <p>\\( \\mathrm{kgm}^{-2} \\) represents mass per unit area, not stress.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect Dimensional Formula):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{kg}^{-2} \\) does not correspond to any standard physical quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Inverted Units):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{N}^{-1} \\) suggests area per unit force, which is not stress.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember: Stress, Pressure, and Energy Density all share the same unit \\( \\mathrm{Nm}^{-2} \\) or \\( \\mathrm{Pa} \\) (Pascal) in SI units.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '1'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> A vector quantity has both magnitude and direction. Let’s check each term in Option A:
+          <ul>
+            <li><strong>Acceleration:</strong> It is a vector quantity because it has both magnitude and direction.</li>
+            <li><strong>Momentum:</strong> It is also a vector quantity defined by \\( \\vec{p} = m \\vec{v} \\), where \\( m \\) is mass and \\( \\vec{v} \\) is velocity.</li>
+            <li><strong>Weight:</strong> Weight is the force due to gravity and acts towards the center of the Earth. It is a vector quantity given by:
+              \\[
+              \\vec{W} = m \\vec{g}
+              \\]
+            </li>
+          </ul>
+          Since all three are vector quantities, Option A is correct.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Only Scalars):</strong>
+        <p>Density, time, and work done are all scalar quantities — they only have magnitude, no direction.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Mixed Quantities):</strong>
+        <p>Displacement and velocity are vectors, but mass is a scalar quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Mixed Quantities):</strong>
+        <p>Force is a vector quantity, but kinetic energy and temperature are scalars.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember: Scalars have only magnitude, while vectors have both magnitude and direction. Examples of vectors include force, velocity, acceleration, and displacement.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '2'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The elastic strain energy \\( E \\) stored in a spring is related to the force \\( F \\) and the extension \\( x \\) by:
+          \\[
+          E = \\frac{1}{2} F x
+          \\]
+        </li>
+        <li>Rearranging the formula to find \\( x \\):
+          \\[
+          x = \\frac{2E}{F}
+          \\]
+        </li>
+        <li>Substituting the given values:
+          <ul>
+            <li>Force \\( F = 3.0\\,\\mathrm{N} \\)</li>
+            <li>Elastic strain energy \\( E = 0.04\\,\\mathrm{J} \\)</li>
+          </ul>
+        </li>
+        <li>Thus, the extension \\( x \\) is:
+          \\[
+          x = \\frac{2 \\times 0.04}{3.0}
+          \\]
+          which matches Option A.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Square root not needed):</strong>
+        <p>Taking the square root is unnecessary, as the direct relationship between energy, force, and extension does not involve a square root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong arrangement):</strong>
+        <p>This option incorrectly takes the square root and inverts the relation, which is not consistent with the energy formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Inverse relationship mistake):</strong>
+        <p>This option flips the formula, incorrectly suggesting that force is divided by energy instead of energy divided by force.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember, for springs, the formula \\( E = \\frac{1}{2} F x \\) allows you to solve for the extension \\( x \\) directly without any square roots or inversions.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '3'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> 
+          - When the cyclist is moving on a horizontal road at constant speed, the power output \\( P \\) is constant to overcome resistive forces.<br><br>
+          - When the cyclist starts moving up the hill, additional power is needed to overcome the component of gravitational force along the slope. 
+          Since the speed remains constant, the increase in required power happens immediately as she hits the incline.<br><br>
+          - Thus, the graph should show a sudden jump to a higher constant power value, matching the behavior shown in <strong>Option D</strong>.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Gradual increase from zero):</strong>
+        <p>Shows a power output starting from zero and gradually increasing, which does not match the situation described (constant speed, constant resistive force initially).</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Gradual slope up):</strong>
+        <p>Depicts a gradual rise after constant power, but the transition to uphill work is sudden, not gradual.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Sudden decrease):</strong>
+        <p>Shows a sudden drop in power, which contradicts the fact that more power is needed to climb uphill, not less.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Whenever motion involves climbing a slope while maintaining constant speed, expect an immediate increase in power output due to work against gravity!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '4'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> When a table tennis ball falls, air resistance acts upward, opposing the motion. The student's calculations <strong>ignored air resistance</strong>, assuming only gravitational acceleration \\( g \\).
+          <ul>
+            <li>Because of air resistance, the ball takes <strong>longer to fall</strong> than predicted. So, the actual time \\( t \\) is <strong>greater</strong> than the calculated time.</li>
+            <li>Air resistance reduces the ball's acceleration and limits its final velocity. Therefore, the actual velocity \\( v \\) is <strong>less</strong> than the calculated velocity.</li>
+          </ul>
+        </li>
+        <li>Mathematically, without air resistance, the velocity just before hitting the ground would be:
+          \\[
+          v = \\sqrt{2gh}
+          \\]
+          where \\( g \\) is gravitational acceleration and \\( h \\) is the height dropped.
+        </li>
+        <li>With air resistance, the ball reaches a lower velocity than \\( \\sqrt{2gh} \\) and takes longer to cover the same distance.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Both Less Than Calculated):</strong>
+        <p>This would mean the ball falls faster and slower, which is inconsistent with the effects of air resistance.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Time Less, Velocity Greater):</strong>
+        <p>Air resistance slows objects down, so time cannot be less and velocity cannot be greater.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Both Greater Than Calculated):</strong>
+        <p>Velocity cannot be greater with air resistance acting against the motion.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always consider air resistance when dealing with real-world free-fall problems. It slows objects down compared to idealized (no air resistance) scenarios!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '5'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight \\( W \\) of the bird is supported by the tension in the string, which has vertical and horizontal components. The vertical component of the tension must balance the weight of the bird. Since the string makes an angle of 80° with each vertical post, the vertical component of the tension is given by:
+          \\[
+          T \\cos(80^\\circ)
+          \\]
+          Since there are two equal tension components supporting the bird, the total vertical component is \\( 2 T \\cos(80^\\circ) \\). To balance the bird's weight, we write:
+          \\[
+          2 T \\cos(80^\\circ) = W
+          \\]
+          Solving for \\( T \\), we get:
+          \\[
+          T = \\frac{W}{2 \\cos(80^\\circ)}
+          \\]
+          This matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Sine Instead of Cosine):</strong>
+        <p>This option uses \\( \\sin(80^\\circ) \\), which is incorrect because we are interested in the vertical component of the tension, which involves the cosine of the angle.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly multiplies \\( W \\) by \\( 2 \\sin(80^\\circ) \\), which doesn't represent the correct relationship between the tension and the weight.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Cosine and Wrong Formula):</strong>
+        <p>This option uses \\( 2 \\cos(80^\\circ) \\) incorrectly, where the formula is not balanced correctly to represent the forces acting on the system.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember that when dealing with forces at angles, the vertical component involves the cosine of the angle and the horizontal component involves the sine.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '6'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The stiffness of a spring is represented by the spring constant \\( k \\), which defines the relationship between the force \\( F \\) applied to the spring and its extension \\( x \\). This relationship is given by Hooke's Law:
+          \\[
+          F = k \\times x
+          \\]
+        </li>
+        <li>The graph shows how the length of the spring varies with the applied force. The gradient of the graph represents the ratio of force to extension, which is equal to the spring constant \\( k \\):
+          \\[
+          k = \\frac{F}{x}
+          \\]
+        </li>
+        <li>Therefore, the stiffness of the spring is the gradient of the graph, which matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="calculation">
+      🧮 <strong>Calculation:</strong><br><br>
+      The gradient of the graph is given by the ratio of the applied force \\( F \\) to the extension \\( x \\):
+      \\[
+      k = \\frac{F}{x}
+      \\]
+      This shows the spring's stiffness.
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect:</strong>
+        <p>The area between the graph and the x-axis does not represent the spring constant. It would correspond to the work done to stretch the spring.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect:</strong>
+        <p>The area between the graph and the y-axis is not relevant to the calculation of stiffness.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect:</strong>
+        <p>Taking the inverse of the gradient does not give the stiffness of the spring.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> The spring constant \\( k \\) is a measure of the stiffness of a spring. A steeper gradient on the graph indicates a stiffer spring.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '7'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight of the cube \\( W \\) can be expressed as the product of its volume and the gravitational field strength \\( g \\), which is:
+          \\[
+          W = V \\times p \\times g
+          \\]
+          where \\( p \\) is the density of the material, and \\( V \\) is the volume of the cube. The volume of the cube is given by:
+          \\[
+          V = L^3
+          \\]
+          where \\( L \\) is the length of each side of the cube.
+        </li>
+        <li>Substituting for \\( V \\) in the equation for \\( W \\), we get:
+          \\[
+          W = L^3 \\times p \\times g
+          \\]
+        </li>
+        <li>Rearranging for \\( L \\), we have:
+          \\[
+          L^3 = \\frac{W}{p \\times g}
+          \\]
+        </li>
+        <li>Taking the cube root of both sides gives the length of each side of the cube:
+          \\[
+          L = \\sqrt[3]{\\frac{W}{p \\times g}}
+          \\]
+          This matches Option D: \\( {3}\\sqrt{\\frac{W}{pg}} \\).
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly raises the entire expression to the power of 3 instead of taking the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Square Root instead of Cube Root):</strong>
+        <p>This option incorrectly applies the square root instead of the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong Rearrangement):</strong>
+        <p>This option incorrectly cubes the denominator instead of applying the cube root to the whole expression.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> When solving for the length of a cube from its volume and density, remember to take the cube root of the expression for the volume.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '8'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+  <h3>✅ Why is Option C correct?</h3>
+  <ul>
+    <li><strong>Explanation:</strong> The yield stress is the stress at which a material begins to deform plastically. From the graph, wire P has a higher yield point (first noticeable deviation from linearity) compared to wire Q. Yield stress is found at the initial curve peak, and P clearly reaches a higher stress value earlier.
+      \\[
+      \\text{Yield Stress} \\propto \\text{Stress at Elastic Limit}
+      \\]
+      Since P's elastic limit is higher than Q's, P has a greater yield stress.
+    </li>
+  </ul>
+</div>
+
+<div class="other-options">
+  <div>
+    <strong>❌ Option A – Incorrect (Breaking stress comparison):</strong>
+    <p>Wire Q has a higher final stress before breaking compared to wire P, so P does not have a greater breaking stress.</p>
+  </div>
+  <div>
+    <strong>❌ Option B – Incorrect (Breaking strain comparison):</strong>
+    <p>Wire Q stretches more before breaking, meaning Q has a greater breaking strain than P.</p>
+  </div>
+  <div>
+    <strong>❌ Option D – Incorrect (Young modulus comparison):</strong>
+    <p>Young's modulus is the slope of the initial linear part of the graph. P has a steeper slope than Q initially, indicating P has a higher Young modulus, not lower.</p>
+  </div>
+</div>
+
+<div class="tip-box">
+  💡 <strong>Tip:</strong> Always check the initial slope for Young modulus, the first peak for yield stress, and the final points for breaking stress and strain.
+</div>
+
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '9'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> From the area under the acceleration-time graph, we know that the area represents the change in velocity \\( \\Delta v \\). The velocity-time graph can then be found, and the area under it will give the distance moved by the object. The expression for the distance moved in terms of the area \\( X \\) is given by:
+          \\[
+          \\text{Distance} = \\frac{X t}{2}
+          \\]
+        </li>
+        <li><strong>Explanation of the Formula:</strong> The area under the acceleration-time graph gives the change in velocity \\( \\Delta v \\), and using the relation for distance, the distance moved is proportional to the area under the graph multiplied by time, divided by 2 to account for the uniform acceleration from rest.
+        </li>
+        <li>Thus, the correct expression is \\( \\frac{Xt}{2} \\), which matches Option D.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (No time dependence):</strong>
+        <p>This option fails to consider the time factor when calculating the distance moved.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect formula):</strong>
+        <p>This option divides the area by 2, but does not account for the time variable properly in the distance formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong multiplication with time):</strong>
+        <p>This option multiplies the area by time, but does not divide by 2 as required in the distance formula.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always check that both time and acceleration are correctly accounted for in motion problems involving uniform acceleration from rest.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '10'
+  }
+],
+  WPH12J22 : [
+  {
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> Stress is defined as force per unit area. Mathematically:
+          \\[
+          \\text{Stress} = \\frac{\\text{Force}}{\\text{Area}}
+          \\]
+          The SI unit of force is \\( \\mathrm{N} \\) (newton) and the SI unit of area is \\( \\mathrm{m}^2 \\).
+        </li>
+        <li>Thus, the unit of stress becomes:
+          \\[
+          \\text{Stress Unit} = \\frac{\\mathrm{N}}{\\mathrm{m}^2} = \\mathrm{Nm}^{-2}
+          \\]
+          which matches Option D.
+        </li>
+        <li>Therefore, \\( \\mathrm{Nm}^{-2} \\) is the correct SI unit for stress.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Units):</strong>
+        <p>\\( \\mathrm{kgm}^{-2} \\) represents mass per unit area, not stress.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect Dimensional Formula):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{kg}^{-2} \\) does not correspond to any standard physical quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Inverted Units):</strong>
+        <p>\\( \\mathrm{m}^2\\mathrm{N}^{-1} \\) suggests area per unit force, which is not stress.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember: Stress, Pressure, and Energy Density all share the same unit \\( \\mathrm{Nm}^{-2} \\) or \\( \\mathrm{Pa} \\) (Pascal) in SI units.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '1'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> A vector quantity has both magnitude and direction. Let’s check each term in Option A:
+          <ul>
+            <li><strong>Acceleration:</strong> It is a vector quantity because it has both magnitude and direction.</li>
+            <li><strong>Momentum:</strong> It is also a vector quantity defined by \\( \\vec{p} = m \\vec{v} \\), where \\( m \\) is mass and \\( \\vec{v} \\) is velocity.</li>
+            <li><strong>Weight:</strong> Weight is the force due to gravity and acts towards the center of the Earth. It is a vector quantity given by:
+              \\[
+              \\vec{W} = m \\vec{g}
+              \\]
+            </li>
+          </ul>
+          Since all three are vector quantities, Option A is correct.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Only Scalars):</strong>
+        <p>Density, time, and work done are all scalar quantities — they only have magnitude, no direction.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Mixed Quantities):</strong>
+        <p>Displacement and velocity are vectors, but mass is a scalar quantity.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Mixed Quantities):</strong>
+        <p>Force is a vector quantity, but kinetic energy and temperature are scalars.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember: Scalars have only magnitude, while vectors have both magnitude and direction. Examples of vectors include force, velocity, acceleration, and displacement.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '2'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option A correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The elastic strain energy \\( E \\) stored in a spring is related to the force \\( F \\) and the extension \\( x \\) by:
+          \\[
+          E = \\frac{1}{2} F x
+          \\]
+        </li>
+        <li>Rearranging the formula to find \\( x \\):
+          \\[
+          x = \\frac{2E}{F}
+          \\]
+        </li>
+        <li>Substituting the given values:
+          <ul>
+            <li>Force \\( F = 3.0\\,\\mathrm{N} \\)</li>
+            <li>Elastic strain energy \\( E = 0.04\\,\\mathrm{J} \\)</li>
+          </ul>
+        </li>
+        <li>Thus, the extension \\( x \\) is:
+          \\[
+          x = \\frac{2 \\times 0.04}{3.0}
+          \\]
+          which matches Option A.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option B – Incorrect (Square root not needed):</strong>
+        <p>Taking the square root is unnecessary, as the direct relationship between energy, force, and extension does not involve a square root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong arrangement):</strong>
+        <p>This option incorrectly takes the square root and inverts the relation, which is not consistent with the energy formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Inverse relationship mistake):</strong>
+        <p>This option flips the formula, incorrectly suggesting that force is divided by energy instead of energy divided by force.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Remember, for springs, the formula \\( E = \\frac{1}{2} F x \\) allows you to solve for the extension \\( x \\) directly without any square roots or inversions.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '3'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> 
+          - When the cyclist is moving on a horizontal road at constant speed, the power output \\( P \\) is constant to overcome resistive forces.<br><br>
+          - When the cyclist starts moving up the hill, additional power is needed to overcome the component of gravitational force along the slope. 
+          Since the speed remains constant, the increase in required power happens immediately as she hits the incline.<br><br>
+          - Thus, the graph should show a sudden jump to a higher constant power value, matching the behavior shown in <strong>Option D</strong>.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Gradual increase from zero):</strong>
+        <p>Shows a power output starting from zero and gradually increasing, which does not match the situation described (constant speed, constant resistive force initially).</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Gradual slope up):</strong>
+        <p>Depicts a gradual rise after constant power, but the transition to uphill work is sudden, not gradual.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Sudden decrease):</strong>
+        <p>Shows a sudden drop in power, which contradicts the fact that more power is needed to climb uphill, not less.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Whenever motion involves climbing a slope while maintaining constant speed, expect an immediate increase in power output due to work against gravity!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '4'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> When a table tennis ball falls, air resistance acts upward, opposing the motion. The student's calculations <strong>ignored air resistance</strong>, assuming only gravitational acceleration \\( g \\).
+          <ul>
+            <li>Because of air resistance, the ball takes <strong>longer to fall</strong> than predicted. So, the actual time \\( t \\) is <strong>greater</strong> than the calculated time.</li>
+            <li>Air resistance reduces the ball's acceleration and limits its final velocity. Therefore, the actual velocity \\( v \\) is <strong>less</strong> than the calculated velocity.</li>
+          </ul>
+        </li>
+        <li>Mathematically, without air resistance, the velocity just before hitting the ground would be:
+          \\[
+          v = \\sqrt{2gh}
+          \\]
+          where \\( g \\) is gravitational acceleration and \\( h \\) is the height dropped.
+        </li>
+        <li>With air resistance, the ball reaches a lower velocity than \\( \\sqrt{2gh} \\) and takes longer to cover the same distance.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Both Less Than Calculated):</strong>
+        <p>This would mean the ball falls faster and slower, which is inconsistent with the effects of air resistance.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Time Less, Velocity Greater):</strong>
+        <p>Air resistance slows objects down, so time cannot be less and velocity cannot be greater.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Both Greater Than Calculated):</strong>
+        <p>Velocity cannot be greater with air resistance acting against the motion.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always consider air resistance when dealing with real-world free-fall problems. It slows objects down compared to idealized (no air resistance) scenarios!
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '5'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight \\( W \\) of the bird is supported by the tension in the string, which has vertical and horizontal components. The vertical component of the tension must balance the weight of the bird. Since the string makes an angle of 80° with each vertical post, the vertical component of the tension is given by:
+          \\[
+          T \\cos(80^\\circ)
+          \\]
+          Since there are two equal tension components supporting the bird, the total vertical component is \\( 2 T \\cos(80^\\circ) \\). To balance the bird's weight, we write:
+          \\[
+          2 T \\cos(80^\\circ) = W
+          \\]
+          Solving for \\( T \\), we get:
+          \\[
+          T = \\frac{W}{2 \\cos(80^\\circ)}
+          \\]
+          This matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Sine Instead of Cosine):</strong>
+        <p>This option uses \\( \\sin(80^\\circ) \\), which is incorrect because we are interested in the vertical component of the tension, which involves the cosine of the angle.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly multiplies \\( W \\) by \\( 2 \\sin(80^\\circ) \\), which doesn't represent the correct relationship between the tension and the weight.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect (Cosine and Wrong Formula):</strong>
+        <p>This option uses \\( 2 \\cos(80^\\circ) \\) incorrectly, where the formula is not balanced correctly to represent the forces acting on the system.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always remember that when dealing with forces at angles, the vertical component involves the cosine of the angle and the horizontal component involves the sine.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '6'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option C correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The stiffness of a spring is represented by the spring constant \\( k \\), which defines the relationship between the force \\( F \\) applied to the spring and its extension \\( x \\). This relationship is given by Hooke's Law:
+          \\[
+          F = k \\times x
+          \\]
+        </li>
+        <li>The graph shows how the length of the spring varies with the applied force. The gradient of the graph represents the ratio of force to extension, which is equal to the spring constant \\( k \\):
+          \\[
+          k = \\frac{F}{x}
+          \\]
+        </li>
+        <li>Therefore, the stiffness of the spring is the gradient of the graph, which matches Option C.
+        </li>
+      </ul>
+    </div>
+
+    <div class="calculation">
+      🧮 <strong>Calculation:</strong><br><br>
+      The gradient of the graph is given by the ratio of the applied force \\( F \\) to the extension \\( x \\):
+      \\[
+      k = \\frac{F}{x}
+      \\]
+      This shows the spring's stiffness.
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect:</strong>
+        <p>The area between the graph and the x-axis does not represent the spring constant. It would correspond to the work done to stretch the spring.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect:</strong>
+        <p>The area between the graph and the y-axis is not relevant to the calculation of stiffness.</p>
+      </div>
+      <div>
+        <strong>❌ Option D – Incorrect:</strong>
+        <p>Taking the inverse of the gradient does not give the stiffness of the spring.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> The spring constant \\( k \\) is a measure of the stiffness of a spring. A steeper gradient on the graph indicates a stiffer spring.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '7'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> The weight of the cube \\( W \\) can be expressed as the product of its volume and the gravitational field strength \\( g \\), which is:
+          \\[
+          W = V \\times p \\times g
+          \\]
+          where \\( p \\) is the density of the material, and \\( V \\) is the volume of the cube. The volume of the cube is given by:
+          \\[
+          V = L^3
+          \\]
+          where \\( L \\) is the length of each side of the cube.
+        </li>
+        <li>Substituting for \\( V \\) in the equation for \\( W \\), we get:
+          \\[
+          W = L^3 \\times p \\times g
+          \\]
+        </li>
+        <li>Rearranging for \\( L \\), we have:
+          \\[
+          L^3 = \\frac{W}{p \\times g}
+          \\]
+        </li>
+        <li>Taking the cube root of both sides gives the length of each side of the cube:
+          \\[
+          L = \\sqrt[3]{\\frac{W}{p \\times g}}
+          \\]
+          This matches Option D: \\( {3}\\sqrt{\\frac{W}{pg}} \\).
+        </li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (Wrong Formula):</strong>
+        <p>This option incorrectly raises the entire expression to the power of 3 instead of taking the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Square Root instead of Cube Root):</strong>
+        <p>This option incorrectly applies the square root instead of the cube root.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong Rearrangement):</strong>
+        <p>This option incorrectly cubes the denominator instead of applying the cube root to the whole expression.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> When solving for the length of a cube from its volume and density, remember to take the cube root of the expression for the volume.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '8'
+  },{
+    mainAnswer : `
+    <div class="explanation">
+  <h3>✅ Why is Option C correct?</h3>
+  <ul>
+    <li><strong>Explanation:</strong> The yield stress is the stress at which a material begins to deform plastically. From the graph, wire P has a higher yield point (first noticeable deviation from linearity) compared to wire Q. Yield stress is found at the initial curve peak, and P clearly reaches a higher stress value earlier.
+      \\[
+      \\text{Yield Stress} \\propto \\text{Stress at Elastic Limit}
+      \\]
+      Since P's elastic limit is higher than Q's, P has a greater yield stress.
+    </li>
+  </ul>
+</div>
+
+<div class="other-options">
+  <div>
+    <strong>❌ Option A – Incorrect (Breaking stress comparison):</strong>
+    <p>Wire Q has a higher final stress before breaking compared to wire P, so P does not have a greater breaking stress.</p>
+  </div>
+  <div>
+    <strong>❌ Option B – Incorrect (Breaking strain comparison):</strong>
+    <p>Wire Q stretches more before breaking, meaning Q has a greater breaking strain than P.</p>
+  </div>
+  <div>
+    <strong>❌ Option D – Incorrect (Young modulus comparison):</strong>
+    <p>Young's modulus is the slope of the initial linear part of the graph. P has a steeper slope than Q initially, indicating P has a higher Young modulus, not lower.</p>
+  </div>
+</div>
+
+<div class="tip-box">
+  💡 <strong>Tip:</strong> Always check the initial slope for Young modulus, the first peak for yield stress, and the final points for breaking stress and strain.
+</div>
+
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '9'
+  },{
+    mainAnswer : `
+        <div class="explanation">
+      <h3>✅ Why is Option D correct?</h3>
+      <ul>
+        <li><strong>Explanation:</strong> From the area under the acceleration-time graph, we know that the area represents the change in velocity \\( \\Delta v \\). The velocity-time graph can then be found, and the area under it will give the distance moved by the object. The expression for the distance moved in terms of the area \\( X \\) is given by:
+          \\[
+          \\text{Distance} = \\frac{X t}{2}
+          \\]
+        </li>
+        <li><strong>Explanation of the Formula:</strong> The area under the acceleration-time graph gives the change in velocity \\( \\Delta v \\), and using the relation for distance, the distance moved is proportional to the area under the graph multiplied by time, divided by 2 to account for the uniform acceleration from rest.
+        </li>
+        <li>Thus, the correct expression is \\( \\frac{Xt}{2} \\), which matches Option D.</li>
+      </ul>
+    </div>
+
+    <div class="other-options">
+      <div>
+        <strong>❌ Option A – Incorrect (No time dependence):</strong>
+        <p>This option fails to consider the time factor when calculating the distance moved.</p>
+      </div>
+      <div>
+        <strong>❌ Option B – Incorrect (Incorrect formula):</strong>
+        <p>This option divides the area by 2, but does not account for the time variable properly in the distance formula.</p>
+      </div>
+      <div>
+        <strong>❌ Option C – Incorrect (Wrong multiplication with time):</strong>
+        <p>This option multiplies the area by time, but does not divide by 2 as required in the distance formula.</p>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      💡 <strong>Tip:</strong> Always check that both time and acceleration are correctly accounted for in motion problems involving uniform acceleration from rest.
+    </div>
+    `,
+    videoLink : '#',
+    practiceLink: '#',
+    answerID : '10'
+  }
+],
+  WPH12F22 : [
   {
     mainAnswer : `
         <div class="explanation">
