@@ -77,11 +77,13 @@
   };
 
   document.getElementById("backButton").addEventListener("click", () => {
-  const confirmed = confirm("Are you sure you want to go back? This will reset all your progress.");
-  if (confirmed) {
+    const hasProgress = Object.keys(localStorage).some(key => key.startsWith("paperData-"));
+    if (hasProgress) {
+      const confirmed = confirm("Are you sure you want to go back? This will reset all your progress.");
+      if (!confirmed) return;
+    }
     localStorage.clear();
     window.location.href = "../../Year/year.html";
-  }
   });
 
   window.addEventListener("popstate", function () {
@@ -89,9 +91,7 @@
     window.location.href = "../../Year/year.html";
   });
 
-  // Push a dummy state to intercept back navigation
   history.pushState(null, "", window.location.href);
-
 </script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
